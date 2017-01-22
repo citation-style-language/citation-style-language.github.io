@@ -1,4 +1,5 @@
 ---
+permalink: /publishers/
 layout: single
 author_profile: true
 ---

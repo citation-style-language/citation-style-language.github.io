@@ -1,6 +1,11 @@
 ---
+permalink: /
 layout: splash
 author_profile: true
+title: Citation Style Language
+excerpt: CitationStyles.org is the home of the Citation Style Language (CSL), a popular open XML-based language to describe the formatting of citations and bibliographies.
+header:
+  overlay_color: "#39c"
 ---
 
 Visit our Styles section to learn how to obtain, use, and edit our styles, Blog for big news updates, Developers if you’re looking to support CSL in your own software, or wish to contribute to development of CSL itself, Publishers if you are a publisher or journal editor with an interest in CSL, About Us to see who is behind this open source project, and Contact if you’re looking for support or just want to say hi.

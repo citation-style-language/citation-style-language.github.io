@@ -1,4 +1,5 @@
 ---
+permalink: /authors/ 
 layout: single
 author_profile: true
 ---
