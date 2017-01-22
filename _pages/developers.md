@@ -1,4 +1,5 @@
 ---
+permalink: /developers/
 layout: single
 sidebar:
   nav: "developers"
