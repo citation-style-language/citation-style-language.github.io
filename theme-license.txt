@@ -1,3 +1,5 @@
+License for the 'Minimal Mistakes' theme (https://mmistakes.github.io/minimal-mistakes/)
+
 The MIT License (MIT)
 
 Copyright (c) 2016 Michael Rose
