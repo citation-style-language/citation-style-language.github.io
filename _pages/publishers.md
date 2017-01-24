@@ -1,7 +1,6 @@
 ---
 permalink: /publishers/
-layout: single
-author_profile: true
+title: CSL for Publishers
 ---
 
 This will be the Publishers page

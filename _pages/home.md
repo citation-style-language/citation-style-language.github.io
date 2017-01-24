@@ -87,7 +87,7 @@ multicolumn_list:
     url: /
 ---
 
-Visit our Styles section to learn how to obtain, use, and edit our styles, Blog for big news updates, Developers if you’re looking to support CSL in your own software, or wish to contribute to development of CSL itself, Publishers if you are a publisher or journal editor with an interest in CSL, About Us to see who is behind this open source project, and Contact if you’re looking for support or just want to say hi.
+Visit our [Authors](/authors/) section to learn how to obtain and use our styles; [Publishers](/publishers/) if you are a publisher or journal editor with an interest in CSL; [Developers](/developers/) if you want to edit or create styles, are looking to support CSL in your own software, or wish to contribute to development of CSL itself; [Blog](/blog/) for big news updates; [About us](/contact/) to see who is behind this open source project; and [Contact](/contact/) if you’re looking for support or just want to say hi.
 
 Our crowdsourced repository offers over 8000 free CSL citation styles, and CSL is used by commercial and open source products alike, including:
 

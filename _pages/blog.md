@@ -1,7 +1,7 @@
 ---
 permalink: /blog/ 
 layout: blog
-author_profile: true
+title: The CSL Blog
 ---
 
 This will be the Blog page
