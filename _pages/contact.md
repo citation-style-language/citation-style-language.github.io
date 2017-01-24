@@ -1,6 +1,6 @@
 ---
 permalink: /contact/
-layout: single
+title: Contact the CSL Team
 ---
 
 This will be the Contact page

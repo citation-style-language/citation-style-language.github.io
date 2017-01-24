@@ -1,7 +1,12 @@
 ---
-permalink: /authors/ 
-layout: single
-author_profile: true
+permalink: /authors/
+title: CSL for Authors
 ---
 
-This will be the Authors page
+## Reference Management Tools
+
+## Finding Styles
+
+## Using Styles
+
+## Requesting Styles

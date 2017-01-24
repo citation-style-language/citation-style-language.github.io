@@ -1,6 +1,6 @@
 ---
 permalink: /developers/
-layout: single
+title: CSL for Developers
 sidebar:
   nav: "developers"
 ---
