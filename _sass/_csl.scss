@@ -1,0 +1,35 @@
+#csl-logo {
+	max-width: 150px;
+
+	@include breakpoint($x-small) {
+		max-width: 200px;
+	}	
+	
+	@include breakpoint($small) {
+		max-width: 300px;
+	}	
+}
+
+.multicolumn_list {
+
+    padding: 0 25px;
+	-webkit-columns: 3 200px;
+	-moz-columns: 3 200px;
+	columns: 3 200px;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em;
+
+	margin-bottom: 30px;
+
+	li.item {
+		list-style: none;
+	}
+
+	li.subitem {
+			list-style: disc;
+	}
+
+}
+
+

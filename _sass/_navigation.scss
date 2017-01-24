@@ -226,7 +226,10 @@
 
     a {
       position: relative;
+    }
 
+    li:not(:first-child) a {
+      
       &:before {
         content: "";
         position: absolute;
@@ -247,6 +250,7 @@
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
       }
+
     }
   }
 
