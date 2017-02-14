@@ -1,7 +1,10 @@
 ---
 permalink: /authors/
 title: CSL for Authors
+layout: single_left_toc
+sidebar_toc: true
 ---
+{% include sidebar_toc %}
 
 As an author you will use CSL styles through a reference management tool. Keep reading to learn how to find and install the style you need, how to request a new style if you cannot find it and how to use CSL styles effectively.
 

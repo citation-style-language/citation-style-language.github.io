@@ -32,4 +32,26 @@
 
 }
 
+.single-left-toc {
 
+	h1,h2,h3,h4,p,ul,div.notice--info {
+		margin-left: 262px !important;
+	}
+}
+
+.notice--info {
+
+	h4, p {
+		margin-left: 0 !important;
+	}
+}
+
+/*
+.single-left-toc {
+	
+	h1,h2,h3,h4:not(div.notice--info),p:not(div.notice--info),ul,div.notice--info {
+		margin-left: 300px !important;
+	}
+
+}
+*/
