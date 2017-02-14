@@ -1,0 +1,9 @@
+---
+title: CSL 1.0 First Anniversary
+date: 2011-03-18
+author: Rintze M. Zelle
+---
+
+It's been a year since version 1.0 of the Citation Style Language was released, but now is as an exciting time as ever. <a href="http://www.zotero.org/">Zotero 2.1</a>, <a href="http://www.mendeley.com/">Mendeley 0.9.8</a> and <a href="http://www.mekentosj.com/papers/">Papers2</a> now all use CSL 1.0 for citation formatting (Zotero and Mendeley both use <a href="https://bitbucket.org/fbennett/citeproc-js/wiki/Home">citeproc-js</a>, the open source JavaScript CSL 1.0 processor by Frank G. Bennett, Jr.). The document converter <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> now supports <a href="http://hackage.haskell.org/package/citeproc-hs">citeproc-hs 0.3.2</a>, an open source Haskell CSL 1.0 processor, and work is ongoing for CSL 1.0 processors written in PHP (<a href="https://bitbucket.org/rjerome/citeproc-php">https://bitbucket.org/rjerome/citeproc-php</a>) and Ruby (<a href="https://github.com/inukshuk/citeproc-ruby">https://github.com/inukshuk/citeproc-ruby</a>). Finally, Zotero developers created <a href="http://www.zotero.org/support/dev/citeproc-node">citeproc-node</a>, a <a href="http://nodejs.org/">NodeJS</a> wrapper for citeproc-js, for easy server-side deployment.
+
+With so many parties on board, the main challenge for the next few  months will be the creation of a CSL 1.0 style repository, similar to  the existing <a href="http://www.zotero.org/styles">Zotero Style Repository</a> for CSL 0.8.1 styles. Preferably, this repository should use a decentralized version control system like Git to handle the distribution and contribution of  CSL styles, and have a front end for users to browse, preview and install styles. Interested parties are strongly  invited to participate in the <a href="http://sourceforge.net/mail/?group_id=117435">xbiblio mailing list</a> to discuss and help out with these future improvements.

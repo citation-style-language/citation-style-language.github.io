@@ -1,6 +1,7 @@
 ---
 title: Mendeley and Elsevier Donation for 2016
 date: 2016-10-06
+author: Rintze M. Zelle
 ---
 
 <span style="font-weight: 400;">For their third straight year, <a href="http://www.mendeley.com/">Mendeley</a> and <a href="https://www.elsevier.com/">Elsevier</a> have kindly supported the open source Citation Style Language project with a $5000 donation. Donations allow us to hire developers for small projects, purchase materials such as the latest style manuals, and support our style repository maintainers. We're very grateful for this continuing sponsorship!</span>

@@ -1,6 +1,7 @@
 ---
 title: Mendeley and Elsevier Donation for 2015
 date: 2015-07-21
+author: Rintze M. Zelle
 ---
 
 For a second year, Mendeley and Elsevier have generously supported the CSL project with a $5,000 donation. Donations like these allow us to dedicate time to the project, cover expenses, and pay out bounties for third-party work—in short, they help to keep CSL thriving. Our heartfelt thanks!
