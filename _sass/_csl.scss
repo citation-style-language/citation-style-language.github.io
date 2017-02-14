@@ -55,3 +55,30 @@
 
 }
 */
+
+// ********************** HOMEPAGE **********************
+
+#partners {
+	text-align: center;
+
+	h2 {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.csl-partners {
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+
+	li {
+		min-width: 200px;
+		display: inline-block;	
+
+		img {
+			margin: 20px auto 10px;
+		}
+	}
+}

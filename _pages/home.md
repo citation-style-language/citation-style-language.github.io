@@ -50,7 +50,7 @@ multicolumn_list:
   - title: Manuscripts
     url: http://www.manuscriptsapp.com/
   - title: Mendeley
-    url: http://www.mendeley.com/
+    url: https://www.mendeley.com/
   - title: Open Science Framework
     url: https://osf.io/
   - title: pandoc
@@ -84,7 +84,7 @@ multicolumn_list:
   - title: Zotpress
     url: https://wordpress.org/plugins/zotpress/
   - title: Zotero
-    url: http://www.zotero.org/
+    url: https://www.zotero.org/
 ---
 
 Visit our [Authors](/authors/) section to learn how to obtain and use our styles; [Publishers](/publishers/) if you are a publisher or journal editor with an interest in CSL; [Developers](/developers/) if you want to edit or create styles, are looking to support CSL in your own software, or wish to contribute to development of CSL itself; [Blog](/blog/) for big news updates; [About us](/contact/) to see who is behind this open source project; and [Contact](/contact/) if you’re looking for support or just want to say hi.
