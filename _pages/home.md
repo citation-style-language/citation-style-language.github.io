@@ -81,8 +81,8 @@ multicolumn_list:
         url: https://wordpress.org/plugins/kcite/
       - title: Mendeley Plugin
         url: https://wordpress.org/plugins/mendeleyplugin/
-  - title: Zotpress
-    url: https://wordpress.org/plugins/zotpress/
+      - title: Zotpress
+        url: https://wordpress.org/plugins/zotpress/
   - title: Zotero
     url: https://www.zotero.org/
 ---
