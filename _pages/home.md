@@ -87,14 +87,12 @@ multicolumn_list:
     url: https://www.zotero.org/
 ---
 
-This website is divided into several sections:
-
-* [Authors](/authors/) - learn how to obtain and use our CSL citation styles
-* [Publishers](/publishers/) - learn how to create CSL styles for your journals and style guides and keep these styles up-to-date
-* [Developers](/developers/) - learn how to create or edit CSL styles, how to integrate CSL into your own software, and how to contribute to CSL's development
-* [Blog](/blog/) - for big CSL news updates
-* [About us](/about/) - meet the CSL team and our supporters
-* [Contact](/contact/) - contact the CSL team
+* **[Authors](/authors/)** &ndash; learn how to find and use our CSL citation styles
+* **[Publishers](/publishers/)** &ndash; learn how to create CSL styles for your journals and style guides and keep these styles up-to-date
+* **[Developers](/developers/)** &ndash; learn how to create or edit CSL styles, how to integrate CSL into your own software, and how to contribute to CSL's development
+* **[Blog](/blog/)** &ndash; for big CSL news updates
+* **[About us](/about/)** &ndash; meet the CSL team and our supporters
+* **[Contact](/contact/)** &ndash; contact the CSL team
 
 Curious if your software tool of choice supports CSL? We are aware of many commercial and open source products that use CSL:
 
