@@ -10,6 +10,12 @@
 	}	
 }
 
+.layout--home {
+	ul {
+		line-height: 1.2;
+	}
+}
+
 .multicolumn_list {
 
     padding: 0 25px;
@@ -19,6 +25,7 @@
 	-webkit-column-gap: 2em;
 	-moz-column-gap: 2em;
 	column-gap: 2em;
+	line-height: 1;
 
 	margin-bottom: 30px;
 
@@ -30,6 +37,17 @@
 			list-style: disc;
 	}
 
+}
+
+.page__hero {
+	&--overlay {
+		padding: 1em 0;
+		
+		.page__lead {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
 }
 
 .single-left-toc {

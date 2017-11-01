@@ -94,5 +94,5 @@ multicolumn_list:
 * **[About us](/about/)** &ndash; meet the CSL team and our supporters
 * **[Contact](/contact/)** &ndash; contact the CSL team
 
-Curious if your software tool of choice supports CSL? We are aware of many commercial and open source products that use CSL:
+Curious if your software tool of choice uses CSL? We are aware of many commercial and open source products that do:
 
