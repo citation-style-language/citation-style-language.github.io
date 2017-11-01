@@ -2,8 +2,8 @@
 permalink: /
 layout: home
 author_profile: true
-title: Citation Style Language
-excerpt: Welcome to the homepage of the open source Citation Style Language (CSL) project! Our goal is to facilitate scholarly publishing by automating the formatting of citations and bibliographies. We do this by developing the XML-based Citation Style Language, and by maintaining a crowdsourced repository with over 8000 free CSL citation styles.
+title: Home
+excerpt: Welcome to the homepage of the open source <span style="white-space:nowrap"><b>Citation Style Language</b></span> (CSL) project! Our goal is to facilitate scholarly publishing by automating the formatting of citations and bibliographies. We do this by developing the XML-based Citation Style Language, and by maintaining a crowdsourced repository with over 8000 free CSL citation styles.
 header:
   overlay_color: "#2d98e0"
 multicolumn_list:
