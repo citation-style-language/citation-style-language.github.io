@@ -1,6 +1,6 @@
 ---
 permalink: /thank-you/
-title: Thank you for contacting the CSL team
+title: Message successfully sent
 ---
 
-Your message has been sent.
+Thank you for contacting the CSL team!
