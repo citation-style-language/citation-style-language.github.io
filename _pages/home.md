@@ -2,7 +2,7 @@
 permalink: /
 layout: home
 author_profile: true
-title: Home
+title: Citation Style Language
 excerpt: Welcome to the open source <span style="white-space:nowrap"><b>Citation Style Language</b></span> (CSL) project! Our goal is to facilitate scholarly publishing by automating the formatting of citations and bibliographies. We develop the Citation Style Language and maintain a crowdsourced repository with over 8000 free CSL citation styles.
 header:
   overlay_color: "#2d98e0"
