@@ -31,11 +31,11 @@ Contact Form
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type="hidden" name="redirect_to" value="{{ site.url }}/thank-you/"/>
   <!-- all your input fields here.... -->
-  Name:
+  Name
   <input type="text" name="name"/>
-  Email:
+  Email (<i>required</i>)
   <input type="text" name="email"/>
-  Message:
-  <textarea name="message" rows="10"/>
+  Message (<i>required</i>)
+  <textarea name="message" rows="13"></textarea>
   <input type="submit" value="Send"/>
 </form>
