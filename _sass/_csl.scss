@@ -29,18 +29,21 @@
 
 	margin-bottom: 30px;
 
-	li {
-		font-size: 0.9em;
-	}
-
-	li.item {
-		list-style: none;
-	}
-
-	li.subitem {
+	ul {
+		margin-top: 0;
+		
+		li {
+			font-size: 0.9em;
+		}
+		
+		li.item {
+			list-style: none;
+		}
+		
+		li.subitem {
 			list-style: disc;
+		}
 	}
-
 }
 
 .page__hero {
