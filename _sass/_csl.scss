@@ -19,21 +19,44 @@
 	-webkit-column-gap: 2em;
 	-moz-column-gap: 2em;
 	column-gap: 2em;
+	line-height: 1;
 
 	margin-bottom: 30px;
 
 	ul {
 		margin-top: 0;
-	}
-
-	li.item {
-		list-style: none;
-	}
-
-	li.subitem {
+		line-height: 1.2;
+		
+		li {
+			font-size: 0.9em;
+		}
+		
+		li.item {
+			list-style: none;
+		}
+		
+		li.subitem {
 			list-style: disc;
+		}
 	}
+}
 
+.page__hero {
+	&--overlay {
+		padding: 1em 0;
+		
+		.page__lead {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 1.2em;
+			line-height: 1.4;
+		}
+		
+		.page__title {
+			margin-bottom: 0.25em;
+			font-size: 1.8em;
+		}
+	}
 }
 
 .single-left-toc {

@@ -3,7 +3,7 @@ permalink: /
 layout: home
 author_profile: true
 title: Citation Style Language
-excerpt: CitationStyles.org is the home of the Citation Style Language (CSL), a popular open XML-based language to describe the formatting of citations and bibliographies.
+excerpt: Welcome to the open source <span style="white-space:nowrap"><b>Citation Style Language</b></span> (CSL) project! Our goal is to facilitate scholarly publishing by automating the formatting of citations and bibliographies. We develop the Citation Style Language and maintain a crowdsourced repository with over 8000 free CSL citation styles.
 header:
   overlay_color: "#2d98e0"
 multicolumn_list:
@@ -87,7 +87,12 @@ multicolumn_list:
     url: https://www.zotero.org/
 ---
 
-Visit our [Authors](/authors/) section to learn how to obtain and use our styles; [Publishers](/publishers/) if you are a publisher or journal editor with an interest in CSL; [Developers](/developers/) if you want to edit or create styles, are looking to support CSL in your own software, or wish to contribute to development of CSL itself; [Blog](/blog/) for big news updates; [About us](/contact/) to see who is behind this open source project; and [Contact](/contact/) if you’re looking for support or just want to say hi.
+* **[Authors](/authors/)** &ndash; learn how to find and use our CSL citation styles
+* **[Publishers](/publishers/)** &ndash; learn how to create CSL styles for your journals and style guides and keep these styles up-to-date
+* **[Developers](/developers/)** &ndash; learn how to create or edit CSL styles, how to integrate CSL into your own software, and how to contribute to CSL's development
+* **[Blog](/blog/)** &ndash; for big CSL news updates
+* **[About us](/about/)** &ndash; meet the CSL team and our supporters
+* **[Contact](/contact/)** &ndash; contact the CSL team
 
-Our crowdsourced repository offers over 8000 free CSL citation styles, and CSL is used by commercial and open source products alike, including:
+Curious if your software tool of choice uses CSL? Many commercial and open source products do:
 
