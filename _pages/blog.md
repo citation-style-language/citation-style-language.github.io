@@ -1,7 +1,5 @@
 ---
 permalink: /blog/ 
 layout: blog
-title: The CSL Blog
+title: Blog
 ---
-
-This will be the Blog page

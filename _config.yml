@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Citation Style Language"
 title_separator          : "-"
 name                     : "Citation Style Language"
-description              : "An amazing website."
+description              : "CitationStyles.org is the home of the Citation Style Language (CSL), a popular open XML-based language to describe the formatting of citations and bibliographies."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "citation-style-language"
   google_plus      :
   keybase          :
   instagram        :
