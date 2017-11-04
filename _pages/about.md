@@ -1,63 +1,83 @@
 ---
 permalink: /about/
-title: About the CSL Team
+title: About
 ---
 
-<h2>Credits</h2>
-The Citation Style Language (CSL) was created by <a href="https://twitter.com/bdarcus">Bruce D'Arcus</a>, and shaped by early contributions from <a href="https://twitter.com/simonsterdotcom">Simon Kornblith</a> of Zotero. In recent years <a href="https://twitter.com/fgbjr">Frank G. Bennett, Jr.</a> and <a href="https://twitter.com/rintzezelle">Rintze M. Zelle</a> have spearheaded further development. The CSL <em>styles</em> and <em>locales</em> GitHub repositories are maintained by Rintze Zelle and <a href="https://twitter.com/adam42smith">Sebastian Karcher</a>. Other contributors include:
-<ul>
- 	<li><a href="https://twitter.com/1nukshuk">Sylvester Keil</a></li>
- 	<li>Johan Kool</li>
- 	<li><a href="https://twitter.com/johanneskrtek">Johannes Krtek</a></li>
- 	<li>Liam Magee</li>
- 	<li><a href="https://twitter.com/cparnot">Charles Parnot</a> (Papers developer)</li>
- 	<li>Carles Pina (Mendeley developer)</li>
- 	<li>Andrea Rossato (author of <a href="http://hackage.haskell.org/package/citeproc-hs">citeproc-hs</a>)</li>
- 	<li><a href="https://twitter.com/danstillman">Dan Stillman</a> (Zotero developer)</li>
- 	<li>Philipp Zumstein (Mannheim University Library)</li>
-</ul>
+## Credits
+
+The Citation Style Language (CSL) was created by [Bruce D'Arcus](https://twitter.com/bdarcus), and shaped by early contributions from [Simon Kornblith](https://twitter.com/simonsterdotcom) of Zotero.
+In recent years [Frank G. Bennett, Jr.](https://twitter.com/fgbjr) and [Rintze M. Zelle](https://twitter.com/rintzezelle) have spearheaded further development.
+The CSL _styles_ and _locales_ GitHub repositories are maintained by Rintze Zelle and [Sebastian Karcher](https://twitter.com/adam42smith).
+Other contributors include:
+
+* [Sylvester Keil](https://twitter.com/1nukshuk)
+* Johan Kool
+* [Johannes Krtek](https://twitter.com/johanneskrtek)
+* Liam Magee
+* [Charles Parnot](https://twitter.com/cparnot) (Papers developer)
+* Carles Pina (Mendeley developer)
+* Andrea Rossato (author of [citeproc-hs](http://hackage.haskell.org/package/citeproc-hs))
+* [Dan Stillman](https://twitter.com/danstillman) (Zotero developer)
+* [Philipp Zumstein](https://twitter.com/zuphilip) (Mannheim University Library)
+
 The contents of this website is by Rintze Zelle.
-<h2>CSL Supporters</h2>
-CSL enjoys the support of several patrons:
 
-<strong> <a href="http://www.zotero.org/">Zotero</a></strong> - Even though CSL and Zotero are independent open source projects, their roots have always been firmly intertwined. Zotero was the first program to adopt CSL, with Zotero-developer Simon Kornblith contributing to the core design of CSL. Many CSL contributors (including Frank, Rintze, and Sebastian) became aware of CSL through their use of Zotero. Our current GitHub <em>styles</em> repository is based on the collection of CSL styles Zotero started, and Zotero-developer Dan Stillman maintains the Zotero Style Repository and CSL's <em>styles-distribution</em> and <em>distribution-updater</em> GitHub repositories. Finally, Zotero kindly hosts and administers this website.
+## CSL Supporters
 
-<strong><a href="http://www.papersapp.com">Papers</a></strong> - Papers-developer Charles Parnot has contributed many CSL styles (including most of our Springer styles), and Papers introduced a <a href="http://support.mekentosj.com/kb/cite-write-your-manuscripts-and-essays-with-citations/a-serial-for-a-style">bounty program</a> to reward those who contribute CSL styles with a Papers license. In 2015, Springer and Papers donated $5000 to the CSL project.
+CSL has enjoyed the support of several patrons:
 
-<strong><a href="http://www.mendeley.com/">Mendeley</a></strong> and <a href="https://www.elsevier.com">Elsevier</a> - Together with Columbia University Libraries, Mendeley obtained an Alfred P. Sloan Foundation grant to create a <a href="http://editor.citationstyles.org">CSL style editor</a>, which was subsequently built by <a href="https://twitter.com/Steve_Ridout">Steve Ridout</a>. Mendeley-developer Carles Pina is an active contributor of CSL styles and helped set up the <em>styles-distribution</em> and <em>distribution-updater</em> GitHub repositories. Both in 2014, 2015, and 2016, Mendeley and Elsevier donated $5000 to the CSL project.
-<h2>Supporting CSL</h2>
-Looking for ways to support CSL? You can help us in many ways:
-<ul>
- 	<li><strong>Become a CSL style author</strong>. Learn CSL, create new CSL styles, and improve existing ones. Follow e.g. the <a href="http://forums.zotero.org/">Zotero forums</a> to find out which styles are being requested, and help users with their CSL questions.</li>
- 	<li><strong>Get involved in CSL development</strong>. Take part in CSL development. Report missing features, help us design and implement new features, write new CSL documentation, or work on the CSL processors.</li>
- 	<li><strong>Mention us</strong>. If you are a developer and use CSL in your software, please drop us a line and acknowledge the use of CSL in your software (please use the unabbreviated "Citation Style Language", since "CSL" is a common acronym). Also, if you distribute CSL styles from our style repository, make sure to comply with their Creative Commons BY-SA license.</li>
- 	<li><strong>Financially</strong>. We currently aren't set up very well to accept personal donations (e.g., the CSL project is not registered as a non-profit organization). However, if you wish to support the open source community around CSL, consider signing up for <a href="http://www.zotero.org/support/storage#zotero_file_storage">Zotero File Storage</a> (the <a href="https://forums.zotero.org/discussion/20922/donating/?Focus=141821#Comment_141821">preferred way</a> to donate to Zotero) as a token of appreciation for their continuing contributions to CSL, which includes hosting <a href="http://citationstyles.org/">CitationStyles.org</a> and the <a href="http://www.zotero.org/styles">Zotero Style Repository</a>. Or buy Frank Bennett's book on Multilingual Zotero, <a href="http://www.amazon.com/Citations-Out-Box-Adapting-multilingual/dp/147934771X/">Citations, Out of the Box: Adapting Zotero for legal and multilingual research</a>.</li>
-</ul>
-<h2>Logos</h2>
+* **[Zotero](http://www.zotero.org/)** -
+  Even though CSL and Zotero are independent open source projects, their roots have always been firmly intertwined.
+  Zotero was the first program to adopt CSL, with Zotero-developer Simon Kornblith contributing to the core design of CSL.
+  Many CSL contributors (including Frank, Rintze, and Sebastian) became aware of CSL through their use of Zotero.
+  Our current GitHub _styles_ repository is based on the collection of CSL styles Zotero started, and Zotero-developer Dan Stillman maintains the Zotero Style Repository and CSL's _styles-distribution_ and _distribution-updater_ GitHub repositories.
+  Finally, Zotero kindly administers our domain.
+* **[Papers](http://www.papersapp.com)** -
+  Papers-developer Charles Parnot has contributed many CSL styles (including most of our Springer styles), and Papers ran a "A Serial for a Style" bounty program to reward CSL style contributors with a Papers license.
+  In 2015, Springer and Papers donated $5000 to the CSL project.
+* **[Mendeley](http://www.mendeley.com/)** and **[Elsevier](https://www.elsevier.com)** -
+  Together with Columbia University Libraries, Mendeley obtained an Alfred P. Sloan Foundation grant to create a [CSL style editor](http://editor.citationstyles.org), which was subsequently built by [Steve Ridout](https://twitter.com/Steve_Ridout).
+  Mendeley-developer Carles Pina contributed many CSL styles and helped set up the _styles-distribution_ and _distribution-updater_ GitHub repositories.
+  Since 2014, Mendeley and Elsevier have yearly donated $5000 to the CSL project.
+
+## Supporting CSL
+
+Looking to support CSL? You can help us in many ways:
+
+* **Become a CSL style author**.
+  Learn CSL, create new CSL styles, and improve existing ones.
+  Follow e.g. the [Zotero forums](http://forums.zotero.org/) to find out which styles are being requested, and help users with their CSL questions.
+* **Get involved in CSL development**.
+  Take part in CSL development.
+  Report missing features, help us design and implement new features, write new CSL documentation, or work on the CSL processors.
+* **Mention us**.
+  If you are a developer and use CSL in your software, please drop us a line and acknowledge the use of CSL in your software (please use the unabbreviated "Citation Style Language", since "CSL" is a common acronym).
+  Also, if you distribute CSL styles from our style repository, make sure to comply with their Creative Commons BY-SA license.
+* **Financially**.
+  We currently aren't set up very well to accept personal donations (e.g., the CSL project is not registered as a non-profit organization).
+  However, if you wish to support the open source community around CSL, consider signing up for [Zotero File Storage](http://www.zotero.org/support/storage#zotero_file_storage) (the [preferred way](https://forums.zotero.org/discussion/20922/donating/?Focus=141821#Comment_141821) to donate to Zotero) as a token of appreciation for their continuing contributions to CSL, which includes hosting [CitationStyles.org](http://citationstyles.org/) and the [Zotero Style Repository](http://www.zotero.org/styles).
+  Or buy Frank Bennett's book on Multilingual Zotero (MLZ, which has since been rebranded to [Juris-M](https://juris-m.github.io/)), [Citations, Out of the Box: Adapting Zotero for legal and multilingual research](http://www.amazon.com/Citations-Out-Box-Adapting-multilingual/dp/147934771X/).
+
+## Logos
+
 Thanks to Johannes Krtek, CSL now has some excellent logos:
-<table>
-<tbody>
-<tr>
-<td style="text-align: center;"><a href="https://s3.amazonaws.com/citationstyles/downloads/csl-logo-300.png"><img class="alignnone wp-image-671 size-full" src="https://s3.amazonaws.com/citationstyles/downloads/csl-logo-300.png" alt="Full logo" width="300" height="51" /></a></td>
-<td style="text-align: center;"><a href="https://s3.amazonaws.com/citationstyles/downloads/csl-logo-small-inverse-150.png"><img class="alignnone wp-image-673 size-full" src="https://s3.amazonaws.com/citationstyles/downloads/csl-logo-small-inverse-150.png" alt="Small logo" width="150" height="150" /></a></td>
-</tr>
-<tr>
-<td style="text-align: center;">Full Logo</td>
-<td style="text-align: center;">Small Logo</td>
-</tr>
-</tbody>
-</table>
-Additional logo variants and SVG source files can be found in the <a href="https://github.com/citation-style-language/logo">logo</a> repository.
-<h2>CSL in the News</h2>
-<ul>
- 	<li>2015-06-12 - <a href="http://blog.mendeley.com/elsevier/mendeley-and-elsevier-continue-to-support-the-csl-project/">Mendeley and Elsevier continue to support the CSL project</a> (Mendeley)</li>
- 	<li>2015-05-20 - <a href="http://blog.papersapp.com/donation-to-citation-style-language-project/">Donation to Citation Style Language project</a> (Papers)</li>
- 	<li><span style="line-height: 1.5em;">2014-01-29 - </span><a style="line-height: 1.5em;" href="http://blog.mendeley.com/news/mendeley-supports-the-open-source-csl-project/">Mendeley Supports the Open Source CSL Project</a><span style="line-height: 1.5em;"> (</span><span style="line-height: 1.5em;">Mendeley)</span></li>
- 	<li>2014-01-29 - <a href="http://www.elsevier.com/connect/mendeley-supports-open-source-project-for-citation-style-language">Mendeley supports open-source project for Citation Style Language</a> (Elsevier)</li>
- 	<li>2013-10-03 - <a href="http://fiduswriter.org/2013/10/05/interview-csl/">Citations on the web</a> (Fidus Writer)</li>
- 	<li>2013-05-01 - <a href="http://blog.mendeley.com/academic-features/mendeley-contributes-2000-citation-styles-to-the-open-citation-style-repository-at-citationstyles-org/">Mendeley contributes 2000 citation styles to the open citation style repository at citationstyles.org</a> (Mendeley)</li>
- 	<li>2013-03-13 - <a href="http://news.papersapp.com/2013/03/springing-forward-1350-new-citation-styles/">Springing Forward: 1350 New Citation Styles</a> (Papers)</li>
- 	<li>2012-12-05 - <a href="http://blog.mendeley.com/academic-features/make-your-citations-look-exactly-how-they-should-with-mendeleys-visual-citation-style-editor/">Make your citations look exactly how they should with Mendeley’s visual citation style editor</a> (Mendeley)</li>
- 	<li>2010-12-09 - <a href="http://blog.mendeley.com/academic-features/one-on-one-with-bruce-darcus-creator-of-the-community-driven-citation-style-language/">One on one with Bruce D’Arcus, creator of the community-driven Citation Style Language</a> (Mendeley)</li>
- 	<li>2010-09-24 - <a href="http://blogs.plos.org/mfenner/2010/09/24/citation-style-language-an-interview-with-rintze-zelle-and-ian-mulvany/">Citation Style Language: An Interview with Rintze Zelle and Ian Mulvany</a> (Martin Fenner, PLOS)</li>
-</ul>
+
+* Full logo  
+  [![Full logo](/assets/img/csl-logo-300.png)](/assets/img/csl-logo-300.png)
+* Small logo  
+  [![Small logo](/assets/img/csl-logo-small-inverse-150.png)](/assets/img/csl-logo-small-inverse-150.png)
+
+Additional logo variants and SVG source files can be found in our [logo](https://github.com/citation-style-language/logo) repository.
+
+## CSL in the News
+
+* 2015-06-12 - [Mendeley and Elsevier continue to support the CSL project](http://blog.mendeley.com/elsevier/mendeley-and-elsevier-continue-to-support-the-csl-project/) (Mendeley)
+* 2015-05-20 - [Donation to Citation Style Language project](http://blog.papersapp.com/donation-to-citation-style-language-project/) (Papers)
+* 2014-01-29 - [Mendeley Supports the Open Source CSL Project](http://blog.mendeley.com/news/mendeley-supports-the-open-source-csl-project/) (Mendeley)
+* 2014-01-29 - [Mendeley supports open-source project for Citation Style Language](http://www.elsevier.com/connect/mendeley-supports-open-source-project-for-citation-style-language) (Elsevier)
+* 2013-10-03 - [Citations on the web](http://fiduswriter.org/2013/10/05/interview-csl/) (Fidus Writer)
+* 2013-05-01 - [Mendeley contributes 2000 citation styles to the open citation style repository at citationstyles.org](http://blog.mendeley.com/academic-features/mendeley-contributes-2000-citation-styles-to-the-open-citation-style-repository-at-citationstyles-org/) (Mendeley)
+* 2013-03-13 - [Springing Forward: 1350 New Citation Styles](http://news.papersapp.com/2013/03/springing-forward-1350-new-citation-styles/) (Papers)
+* 2012-12-05 - [Make your citations look exactly how they should with Mendeley’s visual citation style editor](http://blog.mendeley.com/academic-features/make-your-citations-look-exactly-how-they-should-with-mendeleys-visual-citation-style-editor/) (Mendeley)
+* 2010-12-09 - [One on one with Bruce D’Arcus, creator of the community-driven Citation Style Language](http://blog.mendeley.com/academic-features/one-on-one-with-bruce-darcus-creator-of-the-community-driven-citation-style-language/) (Mendeley)
+* 2010-09-24 - [Citation Style Language: An Interview with Rintze Zelle and Ian Mulvany](http://blogs.plos.org/mfenner/2010/09/24/citation-style-language-an-interview-with-rintze-zelle-and-ian-mulvany/) (Martin Fenner, PLOS)
