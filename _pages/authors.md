@@ -89,18 +89,28 @@ For more details, see the [Non-English Items](http://citationstyles.org/download
   {{ notice-text | markdownify }}
 </div>
 
-### Name Disambiguation
+### Name Disambiguation
 
-You may notice that a CSL style adds given names or initials of authors to some, but not all, of the citations it generates, e.g. "(J.T. Kirk, 2002)" instead of just "(Kirk, 2002)". This is typically the result of name disambiguation: the CSL style is adding the extra name information to distinguish between people with the same last name (e.g., James T. Kirk and Tiberius Kirk).
+You may be surprised to find that a CSL style adds given names or initials to some, but not all, of the citations it generates, e.g. "(J.T. Kirk, 2002)" instead of just "(Kirk, 2002)".
+This is typically the result of name disambiguation: the CSL style is adding the extra name information to distinguish between people with the same last name but different initials or given names (e.g., James T. Kirk and Tiberius Kirk).
 
-CSL styles only attempt name disambiguation if the citation format calls for it. However, name disambiguation can also occur inadvertently when a person's name is stored multiple times with different spellings in your reference manager. E.g., your reference manager might assume that James T. Kirk, James Kirk, and J. T. Kirk are different persons. To avoid name disambiguation in this case, make sure that each person's name is spelled consistently throughout your reference library.
+CSL styles that use name disambiguation may mistakenly apply it when a person's name is stored with different spellings across multiple items (e.g. "James T. Kirk", "James Kirk", and "J. T. Kirk").
+To avoid name disambiguation in this case, make sure that people's names are spelled consistently throughout your reference library.
 
 ### Suppress Author
 
-With "author" and "author-date" styles, you might want to write "as discussed by Doe (2002), … " instead of "as previously discussed (Doe, 2002)".
+With "author-date"-type styles, you might want to write sentences like "as discussed by Doe (2002), …" instead of "as previously discussed (Doe, 2002)".
 
-While CSL styles only define complete citations, e.g. "(Doe, 2002)", the word processor plugins of Zotero, Mendeley, and Papers all allow you to suppress the author(s) in individual citations, which would leave you with just "(2002)". You then have to write the author's name by hand.
+By default, the "author-date" CSL styles from our repository always produce the second variant, where both the author names and date is printed within parentheses, i.e. "(Doe, 2002)".
+However, many word processor plugins (including those of Zotero, Mendeley, and Papers) allow you to suppress the author names in individual citations, which would leave you with just "(2002)".
+You then have to write the author's name ("Doe") out by hand in the text in front of this citation.
 
-## Requesting New Styles
+## Requesting Styles
 
-Custom styles can be <a href="https://github.com/citation-style-language/styles/wiki/Requesting-Styles">requested</a>, but our capacity to create new styles for free is limited. To get preferential treatment (and support our work), you can <a href="http://citationstyles.org/contact/">contact us</a> and offer payment. The cost of a custom-made CSL style is typically $100-300, depending on the amount of work.
+If you can't find a CSL style for a journal or style guide, or if you find errors in one of our existing styles, you can put in a [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
+
+There are a few volunteers who try to help people with their requests.
+While most style requests are handled for free, some of our expert CSL style authors are also available for hire.
+Offering payment will get you preferential treatment and a fast turnaround time, and supports their work.
+Our experts usually charge around $100-300 for a custom-made CSL style, depending on the complexity of the style guide and amount of work, and will generally provide a fixed price quote in advance.
+If interested in this type of paid support, please contact us via our [contact form](/contact/).
