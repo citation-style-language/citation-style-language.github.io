@@ -105,6 +105,20 @@ By default, the "author-date" CSL styles from our repository always produce the 
 However, many word processor plugins (including those of Zotero, Mendeley, and Papers) allow you to suppress the author names in individual citations, which would leave you with just "(2002)".
 You then have to write the author's name ("Doe") out by hand in the text in front of this citation.
 
+### Localization
+
+In terms of localization, CSL offers two types of styles: the first and most abundant group are styles that have a fixed locale.
+For example, our CSL styles for American journals will always produce citations and bibliographies using US English grammar, date formats, and translations.
+Fixed-locale styles for languages other than English are easily recognizable, as they all mention their language in the style title, e.g. "Soziale Welt (German)".
+
+The second group of styles are those that can freely localize.
+These include several of our most popular generic styles, like those for APA, Chicago Manual of Style, IEEE, MLA, and Vancouver, as well as styles for polyglot journals that publish in multiple languages.
+Check your software's documentation for details on how to select the desired locale when using these styles.
+
+CSL styles can automatically translate to different languages, but for this to work well they need to be coded in a certain way: styles should use localized date formats, use CSL terms instead of hard-coded translations, and a [CSL locale file](https://github.com/citation-style-language/locales/wiki) needs to be available for your language of choice.
+Individual styles can also override the standard translations, date formats, and grammar options specified in the CSL locale files.
+But even a well-coded style still has some limitations: CSL doesn't yet allow for per-item localization (for example, some styles require Japanese items to be cited in Japanese, and English items in US English), and doesn't always support all grammatical peculiarities of your favorite language.
+
 ## Requesting Styles
 
 If you can't find a CSL style for a journal or style guide, or if you find errors in one of our existing styles, you can put in a [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
