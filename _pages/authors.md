@@ -119,6 +119,30 @@ CSL styles can automatically translate to different languages, but for this to w
 Individual styles can also override the standard translations, date formats, and grammar options specified in the CSL locale files.
 But even a well-coded style still has some limitations: CSL doesn't yet allow for per-item localization (for example, some styles require Japanese items to be cited in Japanese, and English items in US English), and doesn't always support all grammatical peculiarities of your favorite language.
 
+### CSL Limitations
+
+We're well aware that the current version of CSL has some limitations.
+Some of the main ones are:
+
+* Limited support for so-called "trigraph" or "label" styles.
+  These styles use in-text labels, based on the author names and publishing date, to link in-text citations to bibliographic entries.
+  An example is "[FH93]" to refer to a 1993 article by Fellner and Helmberg.
+  While CSL has a "citation-label" variable for this purpose, CSL styles currently can't define the rules to construct these labels.
+  As a result, the labels have to be externally provided, outside of CSL.
+* No support for "composite" or "compound" styles.
+  With these styles, popular in the field of chemistry, each numbered bibliographic entry can contain more than one reference.
+* Limited support for legal styles.
+  The official version of CSL still has limited support for citing legal materials.
+  However, law professor Frank Bennett, author of the popular citeproc-js CSL processor, maintains a specialized version of Zotero, branded as [Juris-M](https://juris-m.github.io/) (along with Juris-M styles, which are derived from CSL), with much improved legal support.
+  We recommend you check out his project!
+* Limited support for citing items in multiple languages within a single document.
+  CSL currently always uses the same locale for all items in a document, and can't apply localized formatting based on the language associated with individual item.
+  (Frank Bennett's [Juris-M](https://juris-m.github.io/) can support this)
+* Limited support for style-specific journal abbreviations.
+  CSL styles currently cannot specify the rules for journal abbreviations.
+  Some style guides prescribe the use of certain lists with abbreviated journal titles, whereas others require the use of certain abbreviation rules.
+  These abbreviations need to be externally provided, outside of CSL.
+
 ## Requesting Styles
 
 If you can't find a CSL style for a journal or style guide, or if you find errors in one of our existing styles, you can put in a [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
@@ -127,4 +151,10 @@ There are a few volunteers who try to help people with their requests.
 While most style requests are handled for free, some of our expert CSL style authors are also available for hire.
 Offering payment will get you preferential treatment and a fast turnaround time, and supports their work.
 Our experts usually charge around $100-300 for a custom-made CSL style, depending on the complexity of the style guide and amount of work, and will generally provide a fixed price quote in advance.
-If interested in this type of paid support, please contact us via our [contact form](/contact/).
+If interested in this type of paid support, please contact us privately via our [contact form](/contact/), or just mention that you're willing to pay in a standard public [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
+
+## Contributing Styles
+
+To contribute new styles to our style repository, or submit changes to existing styles, please see our [contribution instructions](https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md).
+While we always try to respond quickly once you submit a style, please keep in mind that the CSL style repository is maintained by a very small group of volunteers.
+By closely following our guidelines, we can often accept your submissions much faster.
