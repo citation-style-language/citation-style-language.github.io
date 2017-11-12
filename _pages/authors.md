@@ -143,6 +143,50 @@ Some of the main ones are:
   Some style guides prescribe the use of certain lists with abbreviated journal titles, whereas others require the use of certain abbreviation rules.
   These abbreviations need to be externally provided, outside of CSL.
 
+## Editing Styles
+
+While we do our best to offer accurate CSL styles for whatever journal or style guide you're interested in, you may come across styles in our repository that are incorrect, or you may find that we don't have a certain style.
+In such cases, you can either make a [style request](/authors#requesting-styles), or try to edit or create the style yourself.
+
+While it takes time and dedication to become a seasoned CSL expert, most users will find it reasonably easy to make small corrections, especially if they already have some experience with HTML or XML.
+
+To get started, we recommend the following CSL documentation:
+
+* The [CSL primer](http://docs.citationstyles.org/en/stable/primer.html) gives an introduction into the world of CSL, and describes the basic components of CSL styles.
+* The [CSL specification](http://docs.citationstyles.org/en/stable/specification.html) describes all the features of CSL in detail, and can be used as a reference.
+* Zotero has a [step-by-step guide](http://www.zotero.org/support/dev/citation_styles/style_editing_step-by-step) for editing CSL styles.
+  While this guide assumes you're using Zotero, it's concise and describes some concrete examples of how to edit existing styles.
+* CSL is an XML-based language, so you might want to read one of the many XML tutorials on the web to better understand the general structure of XML files like our CSL styles.
+  XML is very similar to HTML, although much stricter and less forgiving.
+
+There are also a number of software tools to help you edit CSL styles:
+
+* [CSL style editor](http://editor.citationstyles.org) (see also its [documentation](https://github.com/citation-style-editor/csl-editor/wiki/User-guide-for-the-CSL-Editor)), which has the following features:
+  * The "Search by Name" tab allows you to search styles by name.
+  * The "Search by Example" tab allows you to search for styles that produce a particular format (or something close to it).
+    To use this feature, change the citation and/or bibliographic entry of one of the provided items to the desired format.
+    This can be useful to find styles that already exist under another name, or to find a closely matching style that you can use as a starting point for editing.
+  * The "Visual editor" tab contains a style editor, and shows a live preview of the style as you make your edits.
+  * The "Code editor" tab contains a more basic editor that allows you to directly edit the XML code of the style.
+    This tab also has a live preview.
+* The [Zotero](http://www.zotero.org/) desktop client comes with two utilities:
+  * The [Reference Test](http://www.zotero.org/support/dev/citation_styles/reference_test_pane) pane allows you to edit the XML code of a style.
+  A live preview is shown based on the items selected in your Zotero client.
+  * The [Preview](http://www.zotero.org/support/dev/citation_styles/preview_pane) pane generates previews for the items selected in your Zotero client for all installed CSL styles.
+* Instead of using one of the dedicated CSL style editors above, you can also hand-edit styles in any text or XML editor, such as:
+  * [Atom](https://atom.io/) (cross-platform)
+  * [Notepad++](http://notepad-plus-plus.org/) (Windows)
+  * [jEdit](http://www.jedit.org/) (cross-platform)
+  * [GNU Emacs](http://www.gnu.org/software/emacs/) (cross-platform; with XML support through [nXML mode](http://www.thaiopensource.com/nxml-mode/))
+  * [<oXygen/> XML Editor](http://www.oxygenxml.com/) (cross-platform; commercial)
+* Especially for if you hand-edit styles, you'll find our [CSL Style Formatter](http://formatter.citationstyles.org/) and [CSL Style and Locale Validator](http://validator.citationstyles.org/) useful tools to make sure your styles are neatly formatted and conform to the CSL schema.
+
+## Contributing Styles
+
+To contribute new styles to our style repository, or submit changes to existing styles, please see our [contribution instructions](https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md).
+While we always try to respond quickly once you submit a style, please keep in mind that the CSL style repository is maintained by a very small group of volunteers.
+By closely following our guidelines, we can often accept your submissions much faster.
+
 ## Requesting Styles
 
 If you can't find a CSL style for a journal or style guide, or if you find errors in one of our existing styles, you can put in a [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
@@ -152,9 +196,3 @@ While most style requests are handled for free, some of our expert CSL style aut
 Offering payment will get you preferential treatment and a fast turnaround time, and supports their work.
 Our experts usually charge around $100-300 for a custom-made CSL style, depending on the complexity of the style guide and amount of work, and will generally provide a fixed price quote in advance.
 If interested in this type of paid support, please contact us privately via our [contact form](/contact/), or just mention that you're willing to pay in a standard public [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
-
-## Contributing Styles
-
-To contribute new styles to our style repository, or submit changes to existing styles, please see our [contribution instructions](https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md).
-While we always try to respond quickly once you submit a style, please keep in mind that the CSL style repository is maintained by a very small group of volunteers.
-By closely following our guidelines, we can often accept your submissions much faster.
