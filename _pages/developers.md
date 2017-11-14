@@ -1,46 +1,162 @@
 ---
 permalink: /developers/
-title: CSL for Developers
-sidebar:
-  nav: "developers"
+title: Developers
+layout: single
 ---
+{% include toc %}
 
-This will be the Developers page
+## Language Specification
 
-## Previously in Styles page
+CSL is defined by two documents: the human-readable [CSL specification](http://docs.citationstyles.org/en/1.0.1/specification.html), and the computer-readable [CSL schema](https://github.com/citation-style-language/schema/tree/v1.0.1), written in the [RELAX NG](http://relaxng.org/) compact syntax, which can be used for validation of CSL styles and locale files.
 
-The CSL project maintains a <a href="https://github.com/citation-style-language/styles">CSL style repository</a> with over 8000 styles, available freely under a Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/">Attribution-ShareAlike (BY-SA) license</a>.
+_Note_: We, the authors of the CSL schema, have agreed to relicense the schema under the more permissible MIT license, although we still have [an open pull request](https://github.com/citation-style-language/schema/pull/143) to change the license text in the schema to reflect this decision.
 
-<h2>Localization</h2>
-Most CSL styles in our repository have a fixed locale. For example, a CSL style for a British journal will always produce citations and bibliographies with British English grammar, date formats, and translations. For styles with a fixed non-English locale, the language is indicated in the style title, e.g. "Soziale Welt (German)".
+## Code repositories
 
-We also offer CSL styles that can freely localize. These include several of our most popular generic styles, like those for APA, Chicago Manual of Style, IEEE, MLA, and Vancouver, as well as styles for journals that publish in multiple languages. Read your software's documentation for details on how to change the localization of such styles.
+We maintain several Git repositories on GitHub at [https://github.com/citation-style-language](https://github.com/citation-style-language).
+The main repositories are:
 
-CSL styles needs to be coded in a certain way to be usable in multiple locales: they need to use localized instead of non-localized date formats, use CSL terms instead of hard-coded strings, and a <a href="https://github.com/citation-style-language/locales/wiki">CSL locale file</a> needs to be available for each language (although styles can overwrite parts of the locale files, if necessary). Even then there are still some limitations. CSL doesn't yet allow for per-item localization (for example, some styles require Japanese items to be cited in Japanese, and English items in American English), and doesn't always support all grammatical peculiarities of your favorite language.
-<h2>Limitations of CSL</h2>
-CSL has a number of limitations. They currently include:
-<ul>
- 	<li>Limited support for "trigraph" styles. These styles use labels, like "ddb98", that are based on the author names and date of publishing, to link in-text citations to bibliographic entries. CSL styles cannot customize the label format.</li>
- 	<li>No support for "composite" styles. With these styles, popular in the field of chemistry, each numbered bibliographic entry can contain more than one reference.</li>
- 	<li>Limited support for legal styles. Law professor Frank Bennett, author of the citeproc-js CSL processor, forked Zotero and CSL to create <a href="http://citationstylist.org/">Multilingual Zotero</a> and CSL-m, with the specific purpose of improving their legal support. We recommend you check it out!</li>
- 	<li>Limited support for citing items in multiple languages within a single document. Do citations and bibliographic entries need to be formatted according to the language of the cited items? Again <a href="http://citationstylist.org/">Multilingual Zotero</a> is the answer, at least for now.</li>
- 	<li>Limited support for journal abbreviations. CSL styles cannot choose between journal abbreviation lists.</li>
-</ul>
-<h1>Editing Styles</h1>
-There are a number of dedicated tools for editing CSL styles. Before getting started, we recommend that you first take a look at some CSL documentation. Our <a href="http://citationstyles.org/downloads/primer.html">primer</a> describes the basic structure of CSL styles, and CSL is extensively documented in its <a href="http://citationstyles.org/downloads/specification.html">specification</a>. The Zotero wiki also has some <a href="http://www.zotero.org/support/dev/citation_styles/style_editing_step-by-step">step-by-step instructions</a> for editing CSL styles. And whatever tool you choose, some basic knowledge of XML or HTML will come in handy.
+* [documentation](https://github.com/citation-style-language/documentation) - for CSL documentation, including the source of the CSL specification
+* [journals](https://github.com/citation-style-language/journals) - for storing publisher's journal metadata (which we use to generate most of our "dependent" styles)
+* [locales](https://github.com/citation-style-language/locales) - for CSL locale files
+* [schema](https://github.com/citation-style-language/schema) - for the CSL schema
+* [styles](https://github.com/citation-style-language/styles) - for CSL styles
+* [styles-distribution](https://github.com/citation-style-language/styles-distribution) - this mirror of the "styles" repo only updates after the Travis CI tests clear, and offers up-to-date style timestamps.
+* [utilities](https://github.com/citation-style-language/utilities) - for scripts used to maintain CSL styles and locale files
+* [test-suite](https://github.com/citation-style-language/test-suite) - test suite maintained by Frank Bennett for testing of [citeproc-js](https://github.com/juris-m/citeproc-js).
+The test suite can be used by authors of other CSL processors, but contains tests that go beyond the scope of the CSL specification.
 
-First, there is the <a href="http://editor.citationstyles.org">CSL style editor</a> (<a href="https://github.com/citation-style-editor/csl-editor/wiki/User-guide-for-the-CSL-Editor">documentation</a>) by Mendeley. This editor has four main functions:
-<ul>
- 	<li>The "Search by Name" tab allows you to search styles by their name.</li>
- 	<li>The "Search by Example" tab allows you to search for styles that produce a particular format (or something close to it), by reformatting the citation and bibliographic entry of one of the provided items. This can be useful to find styles that already exist under another name, or to find a closely matching style that you can use as a starting point for editing.</li>
- 	<li>The "Visual editor" tab contains the actual style editor, and shows a live preview of the style as you make your edits.</li>
- 	<li>The "Code editor" tab contains a more basic editor that allows you to directly edit the XML code of the style. This tab also has a live preview.</li>
-</ul>
-Second, the <a href="http://www.zotero.org/">Zotero</a> desktop clients (Zotero for Firefox and Zotero Standalone) ship with two utilities:
-<ul>
- 	<li>The <a href="http://www.zotero.org/support/dev/citation_styles/reference_test_pane">Reference Test</a> pane allows you to edit the XML code of a style. A live preview is shown based on the items selected in your Zotero client.</li>
- 	<li>The <a href="http://www.zotero.org/support/dev/citation_styles/preview_pane">Preview</a> pane generates previews for the items selected in your Zotero client for all installed CSL styles.</li>
-</ul>
-Finally, CSL styles can also be edited in any text or XML editor, such as <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> (OS X), <a href="http://notepad-plus-plus.org/">Notepad++</a> (Windows),  <a href="http://www.jedit.org/">jEdit</a> (cross-platform), <a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> (cross-platform; with XML support through <a href="http://www.thaiopensource.com/nxml-mode/">nXML mode</a>), or <a href="http://www.oxygenxml.com/">&lt;oXygen/&gt; XML Editor</a> (cross-platform; commercial).
-<h1>Contributing Styles</h1>
-If you would like to contribute new styles to our style repository, or submit changes to existing styles, please see our <a href="https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md">contribution guidelines</a>. Keep in mind that style submissions are handled by a handful of volunteers. By closely following our guidelines, your styles will be accepted much faster.
+## CSL Processors
+
+Open source CSL 1.0.1-compatible CSL processors include:
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Programming Language</th>
+      <th>Author</th>
+      <th>Known Implementations</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/juris-m/citeproc-js">citeproc‑js</a></td>
+      <td>JavaScript</td>
+      <td>Frank Bennett</td>
+      <td>Zotero, Mendeley, Qiqqa, Docear, KCite</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="http://hackage.haskell.org/package/citeproc-hs">citeproc‑hs</a></td>
+      <td>Haskell</td>
+      <td>Andrea Rossato</td>
+      <td>pandoc</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="http://bitbucket.org/rjerome/citeproc-php">citeproc‑php</a></td>
+      <td>PHP</td>
+      <td>Ron Jerome</td>
+      <td>Drupal's Bibliography Module, BibSonomy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/inukshuk/citeproc-ruby">citeproc‑ruby</a></td>
+      <td>Ruby</td>
+      <td>Sylvester Keil</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/michel-kraemer/citeproc-java">citeproc‑java</a></td>
+      <td>Java</td>
+      <td>Michel Krämer</td>
+      <td></td>
+      <td>Java wrapper for citeproc-js</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/brechtm/citeproc-py">citeproc‑py</a></td>
+      <td>Python</td>
+      <td>Brecht Machiels</td>
+      <td></td>
+      <td>not to be confused with the unmaintained and identically named <a href="http://github.com/bdarcus/citeproc-py/">citeproc-py</a> (Python) by Bruce D'Arcus</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/fouke-boss/citeproc-dotnet">citeproc‑dotnet</a></td>
+      <td>.NET</td>
+      <td>Fouke Boss</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Mappings
+
+A mapping between Zotero fields and CSL variables can be found at <http://aurimasv.github.io/z2csl/typeMap.xml> ([repo](https://github.com/aurimasv/z2csl)).
+A similar mapping for Mendeley can be found at <https://service.elsevier.com/app/answers/detail/a_id/22175/supporthub/mendeley/>.
+
+## Development Process
+
+Our [governance document](https://github.com/citation-style-language/governance/blob/master/governance.md) describes how we aim to run the CSL project.
+In short, we strive to develop CSL in an open, consensus-seeking way.
+Our goal is to improve scholarly communication by automating the correct formatting of citations, and by stimulating cooperation and compatibility between the different citation software products.
+Our primary communication channel for announcements, discussions, and decision making is the public [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel) ([Nabble mirror](http://xbiblio-devel.2463403.n2.nabble.com/)).
+We also use the issue trackers of our GitHub repositories to keep track of issues, and while discussions take place there as well, final design decisions are always made on the mailing list.
+While CSL always has had close ties to Zotero, the two are independent projects.
+Still, many CSL contributors are Zotero users, and the lively [Zotero forums](http://forums.zotero.org/) continue to play an important role in receiving user feedback.
+
+## Project History
+
+### Release Timeline
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Version</th>
+      <th>Resources</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>September 3, 2012</td>
+      <td>1.0.1</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0.1">Schema</a>, <a href="http://citationstyles.org/downloads/specification-csl101-20120903.html">Specification</a></td>
+      <td><a href="http://citationstyles.org/2012/09/03/citation-style-language-1-0-1-update/">Announcement</a> and <a href="http://citationstyles.org/downloads/release-notes-csl101.html">Release notes</a>.</td>
+    </tr>
+    <tr>
+      <td>May 30, 2010</td>
+      <td>1.0</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0">Schema</a>, <a href="http://citationstyles.org/downloads/specification-csl10-20100530.html">Specification</a></td>
+      <td><a href="http://citationstyles.org/2010/05/30/csl-1-0-specification-update-2010-05-30/">Announcement</a>. Update of the specification. No changes were made to the CSL 1.0 schema.</td>
+    </tr>
+    <tr>
+      <td>March 22, 2010</td>
+      <td>1.0</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0">Schema</a>, <a href="http://citationstyles.org/downloads/specification-csl10-20100321.html">Specification</a></td>
+      <td><a href="http://citationstyles.org/2010/03/22/citation-style-language-1-0/">Announcement</a> and <a href="http://citationstyles.org/downloads/upgrade-notes.html">Upgrade notes</a>. First release of the CSL specification. CSL 1.0 was first supported by Zotero 2.1, Mendeley 0.9.8, and Papers2 (for Mac).</td>
+    </tr>
+    <tr>
+      <td>February 1, 2010</td>
+      <td>0.8.1</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v0.8.1">Schema</a></td>
+      <td><a href="http://sourceforge.net/mailarchive/message.php?msg_id=24483054">Announcement</a></td>
+    </tr>
+    <tr>
+      <td>March 21, 2009</td>
+      <td>0.8</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v0.8">Schema</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+### Hosting Changes
+
+Prior to the move to GitHub, from late 2009 to March 2011, the project code was maintained in Mercurial repositories on [Bitbucket.org](https://bitbucket.org/) (see the mostly retired [Bitbucket repositories of Bruce D'Arcus](https://bitbucket.org/bdarcus)), and before that, from February 2006 to late 2009, in an SVN repository on SourceForge (see the [xbiblio SourceForge project page](http://sourceforge.net/projects/xbiblio/)).
+Before migrating to GitHub during late 2010/early 2011, CSL styles were separately maintained in the now retired [Zotero SVN](https://www.zotero.org/trac).
+The [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel), hosted by SourceForge, has been in continued use since 2004.
