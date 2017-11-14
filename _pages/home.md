@@ -51,6 +51,8 @@ multicolumn_list:
     url: http://www.manuscriptsapp.com/
   - title: Mendeley
     url: https://www.mendeley.com/
+  - title: Open Journal Systems
+    url: https://github.com/pkp/citationStyleLanguage
   - title: Open Science Framework
     url: https://osf.io/
   - title: pandoc

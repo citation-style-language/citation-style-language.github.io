@@ -152,8 +152,8 @@ While it takes time and dedication to become a seasoned CSL expert, most users w
 
 To get started, we recommend the following CSL documentation:
 
-* The [CSL primer](http://docs.citationstyles.org/en/stable/primer.html) gives an introduction into the world of CSL, and describes the basic components of CSL styles.
-* The [CSL specification](http://docs.citationstyles.org/en/stable/specification.html) describes all the features of CSL in detail, and can be used as a reference.
+* The [CSL primer](http://docs.citationstyles.org/en/1.0.1/primer.html) gives an introduction into the world of CSL, and describes the basic components of CSL styles.
+* The [CSL specification](http://docs.citationstyles.org/en/1.0.1/specification.html) describes all the features of CSL in detail, and can be used as a reference.
 * Zotero has a [step-by-step guide](http://www.zotero.org/support/dev/citation_styles/style_editing_step-by-step) for editing CSL styles.
   While this guide assumes you're using Zotero, it's concise and describes some concrete examples of how to edit existing styles.
 * CSL is an XML-based language, so you might want to read one of the many XML tutorials on the web to better understand the general structure of XML files like our CSL styles.
