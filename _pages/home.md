@@ -9,6 +9,8 @@ header:
 multicolumn_list:
   - title: ACS ChemWorx
     url: https://acschemworx.acs.org/
+  - title: Auratikum
+    url: https://auratikum.de/
   - title: Bibliograph
     url: http://www.bibliograph.org/
   - title: BibSonomy
