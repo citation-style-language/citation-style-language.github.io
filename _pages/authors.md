@@ -2,6 +2,7 @@
 permalink: /authors/
 title: Authors
 layout: single
+redirect_from: /styles
 ---
 {% include toc %}
 
