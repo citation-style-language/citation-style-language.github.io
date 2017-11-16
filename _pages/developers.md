@@ -125,20 +125,20 @@ Still, many CSL contributors are Zotero users, and the lively [Zotero forums](ht
     <tr>
       <td>September 3, 2012</td>
       <td>1.0.1</td>
-      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0.1">Schema</a>, <a href="http://citationstyles.org/downloads/specification-csl101-20120903.html">Specification</a></td>
-      <td><a href="http://citationstyles.org/2012/09/03/citation-style-language-1-0-1-update/">Announcement</a> and <a href="http://citationstyles.org/downloads/release-notes-csl101.html">Release notes</a>.</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0.1">Schema</a>, <a href="http://docs.citationstyles.org/en/1.0.1/specification.html">Specification</a></td>
+      <td><a href="http://citationstyles.org/2012/09/03/citation-style-language-1-0-1-update/">Announcement</a> and <a href="http://docs.citationstyles.org/en/1.0.1/release-notes.html">Release notes</a>.</td>
     </tr>
     <tr>
       <td>May 30, 2010</td>
       <td>1.0</td>
-      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0">Schema</a>, <a href="http://citationstyles.org/downloads/specification-csl10-20100530.html">Specification</a></td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0">Schema</a>, <a href="http://docs.citationstyles.org/en/1.0/specification.html">Specification</a></td>
       <td><a href="http://citationstyles.org/2010/05/30/csl-1-0-specification-update-2010-05-30/">Announcement</a>. Update of the specification. No changes were made to the CSL 1.0 schema.</td>
     </tr>
     <tr>
       <td>March 22, 2010</td>
       <td>1.0</td>
-      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0">Schema</a>, <a href="http://citationstyles.org/downloads/specification-csl10-20100321.html">Specification</a></td>
-      <td><a href="http://citationstyles.org/2010/03/22/citation-style-language-1-0/">Announcement</a> and <a href="http://citationstyles.org/downloads/upgrade-notes.html">Upgrade notes</a>. First release of the CSL specification. CSL 1.0 was first supported by Zotero 2.1, Mendeley 0.9.8, and Papers2 (for Mac).</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0">Schema</a>, <a href="http://docs.citationstyles.org/en/1.0-20100321/specification.html">Specification</a></td>
+      <td><a href="http://citationstyles.org/2010/03/22/citation-style-language-1-0/">Announcement</a> and <a href="http://docs.citationstyles.org/en/1.0-20100321/release-notes.html">Upgrade notes</a>. First release of the CSL specification. CSL 1.0 was first supported by Zotero 2.1, Mendeley 0.9.8, and Papers2 (for Mac).</td>
     </tr>
     <tr>
       <td>February 1, 2010</td>
