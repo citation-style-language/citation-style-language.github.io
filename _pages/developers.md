@@ -49,18 +49,18 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td></td>
     </tr>
     <tr>
-      <td><a href="http://hackage.haskell.org/package/citeproc-hs">citeproc‑hs</a></td>
+      <td><a href="https://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a></td>
       <td>Haskell</td>
-      <td>Andrea Rossato</td>
+      <td>John MacFarlane</td>
       <td>pandoc</td>
-      <td></td>
+      <td>Continuation of Andrea Rossato's <a href="http://hackage.haskell.org/package/citeproc-hs">citeproc‑hs</a>, which was last updated in 2015.</td>
     </tr>
     <tr>
-      <td><a href="http://bitbucket.org/rjerome/citeproc-php">citeproc‑php</a></td>
+      <td><a href="https://github.com/seboettg/citeproc-php">citeproc‑php</a></td>
       <td>PHP</td>
-      <td>Ron Jerome</td>
-      <td>Drupal's Bibliography Module, BibSonomy</td>
+      <td>Sebastian Böttger</td>
       <td></td>
+      <td>Replaces the original <a href="http://bitbucket.org/rjerome/citeproc-php">citeproc‑php</a> by Ron Jerome, which was last updated in 2013.</td>
     </tr>
     <tr>
       <td><a href="https://github.com/inukshuk/citeproc-ruby">citeproc‑ruby</a></td>
@@ -81,7 +81,7 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td>Python</td>
       <td>Brecht Machiels</td>
       <td></td>
-      <td>not to be confused with the unmaintained and identically named <a href="http://github.com/bdarcus/citeproc-py/">citeproc-py</a> (Python) by Bruce D'Arcus</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="https://github.com/fouke-boss/citeproc-dotnet">citeproc‑dotnet</a></td>
