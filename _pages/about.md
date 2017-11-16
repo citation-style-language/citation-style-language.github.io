@@ -2,6 +2,7 @@
 permalink: /about/
 title: About
 ---
+{% include toc %}
 
 ## Credits
 
@@ -44,6 +45,8 @@ CSL has enjoyed the support of several patrons:
 
 Looking to support CSL? You can help us in many ways:
 
+* **Star our _styles_ repository on GitHub**.
+  If you already have a GitHub account, an easy way to show your appreciation is to [star](https://help.github.com/articles/about-stars/) our [styles repository](https://github.com/citation-style-language/styles) (and any other of our repositories you find interesting).
 * **Become a CSL style author**.
   Learn CSL, create new CSL styles, and improve existing ones.
   Follow e.g. the [Zotero forums](http://forums.zotero.org/) to find out which styles are being requested, and help users with their CSL questions.

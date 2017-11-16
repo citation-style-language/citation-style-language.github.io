@@ -81,7 +81,7 @@ Our repository CSL styles that need sentence case will generally just print titl
 Title casing seems to be unique to English.
 CSL therefore automatically excludes non-English items from title casing.
 The language of an item is defined by the value of its "language" metadata field.
-For more details, see the [Non-English Items](http://citationstyles.org/downloads/specification.html#non-english-items) section in the CSL specification.
+For more details, see the [Non-English Items](http://docs.citationstyles.org/en/1.0.1/specification.html#non-english-items) section in the CSL specification.
 {% endcapture %}
 
 <div class="notice--info">

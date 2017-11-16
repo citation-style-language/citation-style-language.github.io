@@ -2,6 +2,7 @@
 permalink: /publishers/
 title: Publishers
 ---
+{% include toc %}
 
 ## Working with Publishers and Journal Editors
 
