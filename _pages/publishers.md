@@ -1,6 +1,7 @@
 ---
 permalink: /publishers/
 title: Publishers
+description: CSL for publishers. Learn how to work with us to get Citation Style Language styles for all your journals and style guides.
 ---
 {% include toc %}
 

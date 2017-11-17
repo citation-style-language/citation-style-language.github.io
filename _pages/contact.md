@@ -1,6 +1,7 @@
 ---
 permalink: /contact/
 title: Contact
+description: Find out how to get in touch with the people behind the Citation Style Language.
 ---
 {% include toc %}
 

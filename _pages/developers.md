@@ -1,6 +1,7 @@
 ---
 permalink: /developers/
 title: Developers
+description: CSL for developers. Learn how to use the Citation Style Language in your software and how to contribute to its development.
 layout: single
 ---
 {% include toc %}
