@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: About
+description: CSL for curious people. See who made the Citation Style Language, how to support the project, and what's been written about CSL.
 ---
 {% include toc %}
 

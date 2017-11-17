@@ -1,6 +1,7 @@
 ---
 permalink: /authors/
 title: Authors
+description: CSL for authors. Learn how to find, install, use, and edit Citation Style Language styles.
 layout: single
 ---
 {% include toc %}
