@@ -91,11 +91,6 @@ form {
 
 #partners {
 	text-align: center;
-
-	h2 {
-		width: 100%;
-		text-align: center;
-	}
 }
 
 .csl-partners {
@@ -103,6 +98,9 @@ form {
 	width: 100%;
 	text-align: center;
 	list-style-type: none;
+
+	margin-top: 0;
+	margin-bottom: 0;
 
 	li {
 		min-width: 200px;
