@@ -25,15 +25,23 @@ Please use the form below for any questions. We're always happy to work with pub
 
 ## Contact Form
 
-<form action="https://getsimpleform.com/messages?form_api_token=e3409865d9248df7cf50ba91353b0e5c" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type="hidden" name="redirect_to" value="{{ site.url }}/thank-you/"/>
-  <!-- all your input fields here.... -->
-  Name
-  <input type="text" name="name"/>
-  Email (<i>required</i>)
-  <input type="text" name="email"/>
-  Message (<i>required</i>)
-  <textarea name="message" rows="13"></textarea>
-  <input type="submit" value="Send"/>
-</form>
+<div id="wufoo-ze9gnah0xritgc">
+Fill out my <a href="https://rmzelle.wufoo.com/forms/ze9gnah0xritgc">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+<script type="text/javascript">var ze9gnah0xritgc;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'rmzelle',
+'formHash':'ze9gnah0xritgc',
+'autoResize':true,
+'height':'627',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { ze9gnah0xritgc = new WufooForm();ze9gnah0xritgc.initialize(options);ze9gnah0xritgc.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
