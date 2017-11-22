@@ -5,3 +5,5 @@
 ## Licensing
 
 The contents of this repository, unless otherwise specified, are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+
+The Jekyll theme used for this website, [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) by Michael Rose, is licensed under the MIT license.
