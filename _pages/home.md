@@ -46,8 +46,6 @@ multicolumn_list:
     url: https://juris-m.github.io/
   - title: Katalog.plus!
     url: http://katalogplus.ub.uni-bielefeld.de/
-  - title: Lens Writer
-    url: https://medium.com/@_mql/produce-a-scientific-paper-with-lens-writer-d0fc75d11919
   - title: Logos
     url: http://www.logos.com/
   - title: Manuscripts
@@ -76,6 +74,8 @@ multicolumn_list:
     url: https://www.refme.com/
   - title: Talis Aspire
     url: http://talisaspire.com/
+  - title: Texture
+    url: http://substance.io/texture/
   - title: "WordPress:"
     children:
       - title: Academic Blogger’s Toolkit
