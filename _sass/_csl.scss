@@ -1,9 +1,10 @@
 #csl-logo {
 	max-width: 150px;
-
+/*
 	@include breakpoint($x-small) {
 		max-width: 200px;
-	}	
+	} 
+*/
 	
 	@include breakpoint($small) {
 		max-width: 300px;

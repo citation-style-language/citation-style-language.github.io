@@ -9,15 +9,32 @@
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+        {% assign author_src = author.avatar %}
       {% else %}
-        <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
+        {% assign author_src = author.avatar | absolute_url %}
+      {% endif %}
+
+      {% if author.home %}
+        {% if author.home contains "://" %}
+          {% assign author_link = author.home %}
+        {% else %}
+          {% assign author_link = author.home | absolute_url %}
+        {% endif %}
+        <a href="{{ author_link }}">
+          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+        </a>
+      {% else %}
+        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
       {% endif %}
     </div>
   {% endif %}
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    {% if author.home %}
+      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
+    {% else %}
+      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    {% endif %}
     {% if author.bio %}
       <p class="author__bio" itemprop="description">
         {{ author.bio }}
@@ -77,7 +94,7 @@
 
       {% if author.google_plus %}
         <li>
-          <a href="https://plus.google.com/+{{ author.google_plus }}" itemprop="sameAs">
+          <a href="https://plus.google.com/{{ author.google_plus }}" itemprop="sameAs">
             <i class="fa fa-fw fa-google-plus-square" aria-hidden="true"></i> Google+
           </a>
         </li>
@@ -131,10 +148,18 @@
         </li>
       {% endif %}
 
+      {% if author.gitlab %}
+        <li>
+          <a href="https://gitlab.com/{{ author.gitlab }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-gitlab" aria-hidden="true"></i> GitLab
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.stackoverflow %}
         <li>
           <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow
+            <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
           </a>
         </li>
       {% endif %}
@@ -198,7 +223,7 @@
       {% if author.soundcloud %}
         <li>
           <a href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud
+            <i class="fa fa-fw fa-soundcloud" aria-hidden="true"></i> SoundCloud
           </a>
         </li>
       {% endif %}
