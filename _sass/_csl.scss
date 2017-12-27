@@ -1,3 +1,63 @@
+// FONT SIZES ///////////////////////////////////////
+
+// Adjust overall font-size
+
+html {
+  font-size: 16px;
+
+  @include breakpoint($medium) {
+    font-size: 18px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 20px;
+  }
+
+}
+
+// Keep larger font for top menu in XL
+
+
+
+
+// REMOVE GLOBAL TRANSITION EFFECTS /////////////////
+
+b,
+i,
+strong,
+em,
+blockquote,
+p,
+q,
+span,
+figure,
+img,
+h1,
+h2,
+header,
+input,
+a,
+tr,
+td,
+form button,
+input[type="submit"],
+.btn,
+.highlight,
+.archive__item-teaser {
+  -webkit-transition: none;
+  transition: none;
+}
+
+
+// MASTHEAD (HEADER) ////////////////////////////////
+
+.masthead {
+
+	@include breakpoint($large) {
+    	font-size: 22px;
+	}
+}
+
 #csl-logo {
 	max-width: 150px;
 /*
@@ -9,6 +69,31 @@
 	@include breakpoint($small) {
 		max-width: 300px;
 	}	
+}
+
+
+// HOMEPAGE /////////////////////////////////////////
+
+.page__hero {
+	&--overlay {
+		padding: 1.5em 0;
+		-webkit-animation-delay: 0.15s;
+    	animation-delay: 0.15s;
+		
+		.page__lead {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 1.2em;
+			line-height: 1.4;
+			text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+		}
+		
+		.page__title {
+			margin-bottom: 0.25em;
+			font-size: 1.8em;
+			text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+		}
+	}
 }
 
 .multicolumn_list {
@@ -42,23 +127,30 @@
 	}
 }
 
-.page__hero {
-	&--overlay {
-		padding: 1em 0;
-		
-		.page__lead {
-			margin-top: 0;
-			margin-bottom: 0;
-			font-size: 1.2em;
-			line-height: 1.4;
-		}
-		
-		.page__title {
-			margin-bottom: 0.25em;
-			font-size: 1.8em;
+#partners {
+	text-align: center;
+}
+
+.csl-partners {
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+
+	margin-top: 0;
+	margin-bottom: 0;
+
+	li {
+		min-width: 200px;
+		display: inline-block;	
+
+		img {
+			margin: 20px auto 10px;
 		}
 	}
 }
+
+// OTHER ////////////////////////////////////////////
 
 form {
 	font-size: 0.8em;
@@ -88,27 +180,4 @@ form {
 }
 */
 
-// ********************** HOMEPAGE **********************
 
-#partners {
-	text-align: center;
-}
-
-.csl-partners {
-	padding: 0;
-	width: 100%;
-	text-align: center;
-	list-style-type: none;
-
-	margin-top: 0;
-	margin-bottom: 0;
-
-	li {
-		min-width: 200px;
-		display: inline-block;	
-
-		img {
-			margin: 20px auto 10px;
-		}
-	}
-}
