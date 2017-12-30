@@ -5,10 +5,10 @@
     {% else %}
       {% capture script_path %}{{ script | absolute_url }}{% endcapture %}
     {% endif %}
-    <script src="{{ script_path }}"></script>
+    <script src="{{ script_path }}?v=0.0.2"></script>
   {% endfor %}
 {% else %}
-  <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
+  <script src="{{ '/assets/js/main.min.js?v=0.0.2' | absolute_url }}"></script>
 {% endif %}
 
 {% if site.search == true or page.layout == 'search' %}
