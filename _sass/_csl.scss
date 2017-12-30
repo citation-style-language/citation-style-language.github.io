@@ -150,6 +150,30 @@ input[type="submit"],
 	}
 }
 
+
+// PAGE STRUCTURE AND MARGINS ///////////////////////
+
+.page {
+  @include breakpoint($large) {
+    float: none;
+    width: initial;
+    padding-right: 0;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+.sidebar__right {
+	@include breakpoint($large) {
+		float: right;
+		margin: 0 0 20px 40px;
+		width: initial;
+		position: initial;
+		padding: 0;
+		width: 320px;
+    }
+}
+
 // OTHER ////////////////////////////////////////////
 
 form {
