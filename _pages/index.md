@@ -46,6 +46,8 @@ multicolumn_list:
     url: https://juris-m.github.io/
   - title: Katalog.plus!
     url: http://katalogplus.ub.uni-bielefeld.de/
+  - title: KeyLinks
+    url: http://www.keylinks.org/
   - title: Logos
     url: http://www.logos.com/
   - title: Manuscripts
