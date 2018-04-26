@@ -104,8 +104,8 @@ A similar mapping for Mendeley can be found at <https://service.elsevier.com/app
 Our [governance document](https://github.com/citation-style-language/governance/blob/master/governance.md) describes how we aim to run the CSL project.
 In short, we strive to develop CSL in an open, consensus-seeking way.
 Our goal is to improve scholarly communication by automating the correct formatting of citations, and by stimulating cooperation and compatibility between the different citation software products.
-Our primary communication channel for announcements, discussions, and decision making is the public [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel) ([Nabble mirror](http://xbiblio-devel.2463403.n2.nabble.com/)).
-We also use the issue trackers of our GitHub repositories to keep track of issues, and while discussions take place there as well, final design decisions are always made on the mailing list.
+Our primary communication channel for announcements, discussions, and decision making is the public [discourse forum](https://discourse.citationstyles.org/).
+We also use the issue trackers of our GitHub repositories to keep track of issues, and while discussions take place there as well, final design decisions are always made in the forum.
 While CSL always has had close ties to Zotero, the two are independent projects.
 Still, many CSL contributors are Zotero users, and the lively [Zotero forums](http://forums.zotero.org/) continue to play an important role in receiving user feedback.
 
@@ -161,3 +161,5 @@ Still, many CSL contributors are Zotero users, and the lively [Zotero forums](ht
 Prior to the move to GitHub, from late 2009 to March 2011, the project code was maintained in Mercurial repositories on [Bitbucket.org](https://bitbucket.org/) (see the mostly retired [Bitbucket repositories of Bruce D'Arcus](https://bitbucket.org/bdarcus)), and before that, from February 2006 to late 2009, in an SVN repository on SourceForge (see the [xbiblio SourceForge project page](http://sourceforge.net/projects/xbiblio/)).
 Before migrating to GitHub during late 2010/early 2011, CSL styles were separately maintained in the now retired [Zotero SVN](https://www.zotero.org/trac).
 The [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel), hosted by SourceForge, has been in continued use since 2004.
+
+Prior to the move to discourse forum in January 2018, we used the [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel) ([Nabble mirror](http://xbiblio-devel.2463403.n2.nabble.com/)) as a communicaton channel.
