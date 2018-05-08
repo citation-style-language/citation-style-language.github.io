@@ -18,6 +18,8 @@ multicolumn_list:
     url: http://www.bibsonomy.org/
   - title: Citace PRO
     url: http://www.citace.com/citace-pro/
+  - title: Citationsy
+    url: https://citationsy.com/
   - title: Cite This For Me
     url: http://www.citethisforme.com/
   - title: colwiz
