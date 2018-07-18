@@ -38,6 +38,8 @@ multicolumn_list:
     url: http://f1000.com/work/
   - title: Fidus Writer
     url: http://www.fiduswriter.org/
+  - title: Formatically
+    url: https://formatically.com/
   - title: I, Librarian
     url: http://i-librarian.net/
   - title: Islandora
