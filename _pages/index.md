@@ -22,6 +22,8 @@ multicolumn_list:
     url: https://citationsy.com/
   - title: Cite This For Me
     url: http://www.citethisforme.com/
+  - title: CloudCite
+    url: https://cloudcite.net/
   - title: colwiz
     url: http://www.colwiz.com/
   - title: CrossRef
