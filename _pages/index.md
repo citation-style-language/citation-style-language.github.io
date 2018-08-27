@@ -98,6 +98,8 @@ multicolumn_list:
         url: https://wordpress.org/plugins/zotpress/
   - title: Zotero
     url: https://www.zotero.org/
+  - title: ZoteroBib
+    url: https://zbib.org/
 ---
 
 * **[Authors](/authors/)** &ndash; learn how to find and use our CSL citation styles
