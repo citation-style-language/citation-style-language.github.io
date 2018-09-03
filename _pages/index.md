@@ -32,6 +32,8 @@ multicolumn_list:
     url: https://digi-libris.com/
   - title: Docear
     url: http://www.docear.org/
+  - title: DOI Citation Formatter
+    url: https://crosscite.org/
   - title: Drupal
     url: http://drupal.org/project/biblio
   - title: EasyBib
