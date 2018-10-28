@@ -160,6 +160,5 @@ Still, many CSL contributors are Zotero users, and the lively [Zotero forums](ht
 
 Prior to the move to GitHub, from late 2009 to March 2011, the project code was maintained in Mercurial repositories on [Bitbucket.org](https://bitbucket.org/) (see the mostly retired [Bitbucket repositories of Bruce D'Arcus](https://bitbucket.org/bdarcus)), and before that, from February 2006 to late 2009, in an SVN repository on SourceForge (see the [xbiblio SourceForge project page](http://sourceforge.net/projects/xbiblio/)).
 Before migrating to GitHub during late 2010/early 2011, CSL styles were separately maintained in the now retired [Zotero SVN](https://www.zotero.org/trac).
-The [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel), hosted by SourceForge, has been in continued use since 2004.
 
 Prior to the move to discourse forum in January 2018, we used the [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel) ([Nabble mirror](http://xbiblio-devel.2463403.n2.nabble.com/)) as a communicaton channel.
