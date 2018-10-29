@@ -15,7 +15,7 @@ To request a new CSL style or report style errors, see [Requesting Styles](/auth
 
 ## Developers
 
-To discuss CSL development, use either our [xbiblio-devel mailing list](https://lists.sourceforge.net/lists/listinfo/xbiblio-devel) (or its [Nabble mirror](http://xbiblio-devel.2463403.n2.nabble.com/)) or the issue trackers of the [relevant GitHub repositories](https://github.com/citation-style-language/).
+To discuss CSL development, use either our [discussion forum](https://discourse.citationstyles.org/) or the issue trackers of the [relevant GitHub repositories](https://github.com/citation-style-language/).
 
 For feature requests, you can also check the [Zotero forums](https://forums.zotero.org/), where many missing CSL features already have existing discussions.
 
