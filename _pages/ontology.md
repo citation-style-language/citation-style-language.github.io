@@ -48,6 +48,7 @@ redirect_from:
   - /ontology/role/reviewed-author
   - /ontology/role/translator
   # types
+  - /ontology/type/
   - /ontology/type/article
   - /ontology/type/article-magazine
   - /ontology/type/article-newspaper
