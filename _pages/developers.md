@@ -99,6 +99,8 @@ Open source CSL 1.0.1-compatible CSL processors include:
 A mapping between Zotero fields and CSL variables can be found at <http://aurimasv.github.io/z2csl/typeMap.xml> ([repo](https://github.com/aurimasv/z2csl)).
 A similar mapping for Mendeley can be found at <https://service.elsevier.com/app/answers/detail/a_id/22175/supporthub/mendeley/>.
 
+The [CSL Ontology](../ontology/) defines URIs for referencing elements of the CSL data model.
+
 ## Development Process
 
 Our [governance document](https://github.com/citation-style-language/governance/blob/master/governance.md) describes how we aim to run the CSL project.
