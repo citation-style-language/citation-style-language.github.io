@@ -86,11 +86,11 @@ redirect_from:
   - /ontology/type/webpage
 ---
 
-The [CSL specification](http://docs.citationstyles.org/en/1.0.1/specification.html) implies a data model with:
+The [CSL specification](https://docs.citationstyles.org/en/1.0.1/specification.html) implies a data model with:
 
-* [categories](http://docs.citationstyles.org/en/1.0.1/specification.html#appendix-i-categories) to indicate academic fields such as `astronomy` and `biology`,
-* [contributor roles](http://docs.citationstyles.org/en/1.0.1/specification.html#roles) such as `author` and `translator`,
-* [publication types](http://docs.citationstyles.org/en/1.0.1/specification.html#appendix-iii-types) such as `article` and `book`.
+* [categories](https://docs.citationstyles.org/en/1.0.1/specification.html#appendix-i-categories) to indicate academic fields such as `astronomy` and `biology`,
+* [contributor roles](https://docs.citationstyles.org/en/1.0.1/specification.html#roles) such as `author` and `translator`,
+* [publication types](https://docs.citationstyles.org/en/1.0.1/specification.html#appendix-iii-types) such as `article` and `book`.
 
 To support referencing these CSL concepts, each is given a globally unique [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) with prefix
 
