@@ -37,7 +37,7 @@ multicolumn_list:
   - title: DOI Citation Formatter
     url: https://crosscite.org/
   - title: Drupal
-    url: http://drupal.org/project/biblio
+    url: https://www.drupal.org/project/biblio
   - title: EasyBib
     url: http://www.easybib.com/
   - title: F1000Workspace
@@ -64,6 +64,8 @@ multicolumn_list:
     url: http://www.manuscriptsapp.com/
   - title: Mendeley
     url: https://www.mendeley.com/
+  - title: MyBib
+    url: https://www.mybib.com/
   - title: Open Journal Systems
     url: https://github.com/pkp/citationStyleLanguage
   - title: Open Science Framework
