@@ -7,7 +7,7 @@ description: CSL for curious people. See who made the Citation Style Language, h
 
 ## Credits
 
-The Citation Style Language (CSL) was created by [Bruce D'Arcus](https://twitter.com/bdarcus), and shaped by early contributions from [Simon Kornblith](https://twitter.com/simonsterdotcom) of Zotero.
+The Citation Style Language (CSL) was created by [Bruce D'Arcus](https://twitter.com/bdarcus), and shaped by early contributions from [Simon Kornblith](https://twitter.com/skornblith) of Zotero.
 In recent years [Frank G. Bennett, Jr.](https://twitter.com/fgbjr) and [Rintze M. Zelle](https://twitter.com/rintzezelle) have spearheaded further development.
 The CSL _styles_ and _locales_ GitHub repositories are maintained by Rintze Zelle and [Sebastian Karcher](https://twitter.com/adam42smith).
 Other contributors include:
