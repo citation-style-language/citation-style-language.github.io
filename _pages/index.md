@@ -84,8 +84,6 @@ multicolumn_list:
     url: https://refeus.de/
   - title: ReFindit
     url: http://refindit.org/
-  - title: RefME
-    url: https://www.refme.com/
   - title: Talis Aspire
     url: http://talisaspire.com/
   - title: Texture
