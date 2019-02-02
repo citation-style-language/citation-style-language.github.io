@@ -34,13 +34,15 @@ CSL has enjoyed the support of several patrons:
   Many CSL contributors (including Frank, Rintze, and Sebastian) became aware of CSL through their use of Zotero.
   Our current GitHub _styles_ repository is based on the collection of CSL styles Zotero started, and Zotero-developer Dan Stillman maintains the Zotero Style Repository and CSL's _styles-distribution_ and _distribution-updater_ GitHub repositories.
   Finally, Zotero kindly administers our domain.
-* **[Papers](http://www.papersapp.com)** -
-  Papers-developer Charles Parnot has contributed many CSL styles (including most of our Springer styles), and Papers ran a "A Serial for a Style" bounty program to reward CSL style contributors with a Papers license.
-  In 2015, Springer and Papers donated $5000 to the CSL project.
 * **[Mendeley](http://www.mendeley.com/)** and **[Elsevier](https://www.elsevier.com)** -
   Together with Columbia University Libraries, Mendeley obtained an Alfred P. Sloan Foundation grant to create a [CSL style editor](http://editor.citationstyles.org), which was subsequently built by [Steve Ridout](https://twitter.com/Steve_Ridout).
   Mendeley-developer Carles Pina contributed many CSL styles and helped set up the _styles-distribution_ and _distribution-updater_ GitHub repositories.
   Since 2014, Mendeley and Elsevier have yearly donated $5000 to the CSL project.
+* **[Papers](http://www.papersapp.com)** -
+  Papers-developer Charles Parnot has contributed many CSL styles (including most of our Springer styles), and Papers ran a "A Serial for a Style" bounty program to reward CSL style contributors with a Papers license.
+  In 2015, Springer and Papers donated $5000 to the CSL project.
+* **[RefWorks](https://refworks.proquest.com/)** -
+  In 2019, RefWorks and Ex Libris donated $5000 to the CSL project.
 
 ## Supporting CSL
 
