@@ -102,6 +102,8 @@ multicolumn_list:
         url: https://wordpress.org/plugins/mendeleyplugin/
       - title: Zotpress
         url: https://wordpress.org/plugins/zotpress/
+  - title: Zettlr
+    url: https://www.zettlr.com/
   - title: Zotero
     url: https://www.zotero.org/
   - title: ZoteroBib
