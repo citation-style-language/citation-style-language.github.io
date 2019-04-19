@@ -10,8 +10,6 @@ layout: single
 
 CSL is defined by two documents: the human-readable [CSL specification](http://docs.citationstyles.org/en/1.0.1/specification.html), and the computer-readable [CSL schema](https://github.com/citation-style-language/schema/tree/v1.0.1), written in the [RELAX NG](http://relaxng.org/) compact syntax, which can be used for validation of CSL styles and locale files.
 
-_Note_: We, the authors of the CSL schema, have agreed to relicense the schema under the more permissible MIT license, although we still have [an open pull request](https://github.com/citation-style-language/schema/pull/143) to change the license text in the schema to reflect this decision.
-
 ## Code repositories
 
 We maintain several Git repositories on GitHub at [https://github.com/citation-style-language](https://github.com/citation-style-language).
