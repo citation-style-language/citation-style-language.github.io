@@ -60,6 +60,8 @@ multicolumn_list:
     url: http://www.keylinks.org/
   - title: Logos
     url: http://www.logos.com/
+  - title: Manubot
+    url: https://manubot.org/
   - title: Manuscripts
     url: http://www.manuscriptsapp.com/
   - title: Mendeley
