@@ -11,7 +11,7 @@ multicolumn_list:
   - title: ACS ChemWorx
     url: https://acschemworx.acs.org/
   - title: Auratikum
-    url: https://auratikum.de/
+    url: https://auratikum.com/
   - title: Bibliograph
     url: http://www.bibliograph.org/
   - title: BibSonomy
