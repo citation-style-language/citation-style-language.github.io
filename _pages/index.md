@@ -18,6 +18,8 @@ multicolumn_list:
     url: http://www.bibsonomy.org/
   - title: Citace PRO
     url: http://www.citace.com/citace-pro/
+  - title: Citation.js
+    url: https://citation.js.org/
   - title: CitationGenerator
     url: https://www.citationgenerator.com/
   - title: Citationsy
