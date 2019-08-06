@@ -58,6 +58,8 @@ multicolumn_list:
     url: https://juris-m.github.io/
   - title: Katalog.plus!
     url: http://katalogplus.ub.uni-bielefeld.de/
+  - title: Kerko
+    url: https://github.com/whiskyechobravo/kerko
   - title: KeyLinks
     url: http://www.keylinks.org/
   - title: Logos
@@ -122,4 +124,3 @@ multicolumn_list:
 * **[Contact](/contact/)** &ndash; contact the CSL team
 
 Curious if your software tool of choice uses CSL? Many commercial and open source products do:
-
