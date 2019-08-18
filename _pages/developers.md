@@ -91,6 +91,13 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td></td>
       <td></td>
     </tr>
+     <tr>
+      <td><a href="https://github.com/cormacrelf/citeproc-rs">citeproc‑rs</a></td>
+      <td>Rust</td>
+      <td>Cormac Relf</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
