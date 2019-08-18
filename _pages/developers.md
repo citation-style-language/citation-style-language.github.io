@@ -43,10 +43,10 @@ Open source CSL 1.0.1-compatible CSL processors include:
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/juris-m/citeproc-js">citeproc‑js</a></td>
-      <td>JavaScript</td>
-      <td>Frank Bennett</td>
-      <td>Zotero, Mendeley, Qiqqa, Docear, KCite</td>
+      <td><a href="https://github.com/fouke-boss/citeproc-dotnet">citeproc‑dotnet</a></td>
+      <td>.NET</td>
+      <td>Fouke Boss</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -57,25 +57,25 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td>Continuation of Andrea Rossato's <a href="http://hackage.haskell.org/package/citeproc-hs">citeproc‑hs</a>, which was last updated in 2015.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/seboettg/citeproc-php">citeproc‑php</a></td>
-      <td>PHP</td>
-      <td>Sebastian Böttger</td>
-      <td></td>
-      <td>Replaces the original <a href="http://bitbucket.org/rjerome/citeproc-php">citeproc‑php</a> by Ron Jerome, which was last updated in 2013.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/inukshuk/citeproc-ruby">citeproc‑ruby</a></td>
-      <td>Ruby</td>
-      <td>Sylvester Keil</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/michel-kraemer/citeproc-java">citeproc‑java</a></td>
       <td>Java</td>
       <td>Michel Krämer</td>
       <td></td>
       <td>Java wrapper for citeproc-js</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/juris-m/citeproc-js">citeproc‑js</a></td>
+      <td>JavaScript</td>
+      <td>Frank Bennett</td>
+      <td>Zotero, Mendeley, Qiqqa, Docear, KCite</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/seboettg/citeproc-php">citeproc‑php</a></td>
+      <td>PHP</td>
+      <td>Sebastian Böttger</td>
+      <td></td>
+      <td>Replaces the original <a href="http://bitbucket.org/rjerome/citeproc-php">citeproc‑php</a> by Ron Jerome, which was last updated in 2013.</td>
     </tr>
     <tr>
       <td><a href="https://github.com/brechtm/citeproc-py">citeproc‑py</a></td>
@@ -85,13 +85,13 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/fouke-boss/citeproc-dotnet">citeproc‑dotnet</a></td>
-      <td>.NET</td>
-      <td>Fouke Boss</td>
+      <td><a href="https://github.com/inukshuk/citeproc-ruby">citeproc‑ruby</a></td>
+      <td>Ruby</td>
+      <td>Sylvester Keil</td>
       <td></td>
       <td></td>
     </tr>
-     <tr>
+    <tr>
       <td><a href="https://github.com/cormacrelf/citeproc-rs">citeproc‑rs</a></td>
       <td>Rust</td>
       <td>Cormac Relf</td>
