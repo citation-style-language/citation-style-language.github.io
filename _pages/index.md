@@ -14,6 +14,8 @@ multicolumn_list:
     url: https://auratikum.com/
   - title: Bibliograph
     url: http://www.bibliograph.org/
+  - title: Bibliography.com
+    url: https://www.bibliography.com/
   - title: BibSonomy
     url: http://www.bibsonomy.org/
   - title: Citace PRO
@@ -92,6 +94,8 @@ multicolumn_list:
     url: http://refindit.org/
   - title: RefWorks
     url: https://refworks.proquest.com/
+  - title: Scholastica
+    url: https://scholasticahq.com/
   - title: Talis Aspire
     url: http://talisaspire.com/
   - title: Texture
