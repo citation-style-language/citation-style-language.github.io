@@ -3,7 +3,7 @@ permalink: /
 layout: home
 author_profile: true
 title: Citation Style Language
-excerpt: Welcome to the open source <span style="white-space:nowrap"><b>Citation Style Language</b></span> (CSL) project! Our goal is to facilitate scholarly publishing by automating the formatting of citations and bibliographies. We develop the Citation Style Language and maintain a crowdsourced repository with over 9000 free CSL citation styles.
+excerpt: Welcome to the open source <span style="white-space:nowrap"><b>Citation Style Language</b></span> (CSL) project! Our goal is to facilitate scholarly publishing by automating the formatting of citations and bibliographies. We develop the Citation Style Language and maintain a crowdsourced repository with over 9500 free CSL citation styles.
 description: CitationStyles.org, home of the Citation Style Language (CSL), a popular open XML-based language to describe the formatting of citations and bibliographies.
 header:
   overlay_color: "#2d98e0"
@@ -119,6 +119,8 @@ multicolumn_list:
   - title: ZoteroBib
     url: https://zbib.org/
 ---
+
+<table style="margin: auto;max-width:768px;"><tr><td><img src="/assets/img/OSS-Vertical@2x.png" height="300px" width="200px"></td><td style="font-size:1.5em;">Proud <a href="https://openpublishingawards.org/index.php/citation-style-language/">recipient</a> of one of the 2019 Open Publishing Awards in the Open Source Software category</td></tr></table>
 
 * **[Authors](/authors/)** &ndash; learn how to find and use our CSL citation styles
 * **[Publishers](/publishers/)** &ndash; learn how to create CSL styles for your journals and style guides and keep these styles up-to-date
