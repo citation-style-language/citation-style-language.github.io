@@ -77,6 +77,7 @@ Additional logo variants and SVG source files can be found in our [logo](https:/
 
 ## CSL in the News
 
+* 2019-10-17 - [Received an award in the Open Source Software category of the 2019 Open Publishing Awards](https://twitter.com/CokoFoundation/status/1184757043938451456) (Coko - Collaborative Knowledge Foundation)
 * 2015-06-12 - [Mendeley and Elsevier continue to support the CSL project](http://blog.mendeley.com/elsevier/mendeley-and-elsevier-continue-to-support-the-csl-project/) (Mendeley)
 * 2015-05-20 - [Donation to Citation Style Language project](http://blog.papersapp.com/donation-to-citation-style-language-project/) (Papers)
 * 2014-01-29 - [Mendeley Supports the Open Source CSL Project](http://blog.mendeley.com/news/mendeley-supports-the-open-source-csl-project/) (Mendeley)
