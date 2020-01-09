@@ -96,34 +96,34 @@ input[type="submit"],
 	}
 }
 
-.multicolumn_list {
+#products, #products + p {
+	text-align: center;
+}
 
-    padding: 0 25px;
-	-webkit-columns: 3 200px;
-	-moz-columns: 3 200px;
-	columns: 3 200px;
+.multicolumn_list ul {
+
+	padding: 0 25px;
+	-webkit-columns: 4 200px;
+	-moz-columns: 4 200px;
+	columns: 4 200px;
 	-webkit-column-gap: 2em;
 	-moz-column-gap: 2em;
 	column-gap: 2em;
-	line-height: 1;
+	line-height: 1.2;
 
+	margin-top: 0;
 	margin-bottom: 30px;
 
-	ul {
-		margin-top: 0;
-		line-height: 1.2;
-		
-		li {
-			font-size: 0.9em;
-		}
-		
-		li.item {
-			list-style: none;
-		}
-		
-		li.subitem {
-			list-style: disc;
-		}
+	li {
+		font-size: 0.9em;
+	}
+	
+	li.item {
+		list-style: none;
+	}
+	
+	li.subitem {
+		list-style: disc;
 	}
 }
 

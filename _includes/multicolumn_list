@@ -1,4 +1,6 @@
 <article class="multicolumn_list">
+	<h3 id="products">Software products that use CSL</h3>
+	<p>Curious if your software tool of choice uses CSL? Many commercial and open source products do:</p>
 	<ul>
 		{% for item in page.multicolumn_list %}
 		<li class="item">
