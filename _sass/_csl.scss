@@ -96,8 +96,18 @@ input[type="submit"],
 	}
 }
 
-#products, #products + p {
+#navigate, #products, #products + p {
 	text-align: center;
+}
+
+.page__title, .page__lead {
+	margin: auto;
+	max-width:900px !important;
+}
+
+#navigate + ul {
+	margin: auto;
+	max-width:768px;
 }
 
 .multicolumn_list ul {

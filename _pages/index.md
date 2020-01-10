@@ -122,6 +122,8 @@ multicolumn_list:
 
 <table style="margin: auto;max-width:768px;"><tr><td><img src="/assets/img/OSS-Vertical@2x.png" height="300px" width="200px"></td><td style="font-size:1.5em;">Proud <a href="https://openpublishingawards.org/index.php/citation-style-language/">recipient</a> of one of the 2019 Open Publishing Awards in the Open Source Software category</td></tr></table>
 
+<h3 id="navigate">Navigating this site</h3>
+
 * **[Authors](/authors/)** &ndash; learn how to find and use our CSL citation styles
 * **[Publishers](/publishers/)** &ndash; learn how to create CSL styles for your journals and style guides and keep these styles up-to-date
 * **[Developers](/developers/)** &ndash; learn how to create or edit CSL styles, how to integrate CSL into your own software, and how to contribute to CSL's development
