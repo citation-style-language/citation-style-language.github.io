@@ -8,8 +8,7 @@ description: CitationStyles.org, home of the Citation Style Language (CSL), a po
 header:
   overlay_color: "#2d98e0"
 multicolumn_list:
-  - title: ACS ChemWorx
-    url: https://acschemworx.acs.org/
+  - title: ACS ChemWorx (discontinued)
   - title: Auratikum
     url: https://auratikum.com/
   - title: Bibliograph
@@ -17,9 +16,9 @@ multicolumn_list:
   - title: Bibliography.com
     url: https://www.bibliography.com/
   - title: BibSonomy
-    url: http://www.bibsonomy.org/
+    url: https://www.bibsonomy.org/
   - title: Citace PRO
-    url: http://www.citace.com/citace-pro/
+    url: https://www.citace.com/citace-pro
   - title: Citation.js
     url: https://citation.js.org/
   - title: CitationGenerator
@@ -33,11 +32,10 @@ multicolumn_list:
   - title: colwiz
     url: http://www.colwiz.com/
   - title: CrossRef
-    url: http://crossref.org/
+    url: https://www.crossref.org/
   - title: digi-libris Reader
-    url: https://digi-libris.com/
-  - title: Docear
-    url: http://www.docear.org/
+    url: http://digi-libris.com/
+  - title: Docear (discontinued)
   - title: DOI Citation Formatter
     url: https://crosscite.org/
   - title: Drupal
@@ -45,31 +43,31 @@ multicolumn_list:
   - title: EasyBib
     url: http://www.easybib.com/
   - title: F1000Workspace
-    url: http://f1000.com/work/
+    url: https://f1000workspace.com/
   - title: Fidus Writer
-    url: http://www.fiduswriter.org/
+    url: https://www.fiduswriter.org/
   - title: Formatically
     url: https://formatically.com/
   - title: I, Librarian
     url: http://i-librarian.net/
   - title: Islandora
-    url: http://islandora.ca/
+    url: https://islandora.ca/
   - title: Jekyll
     url: https://github.com/inukshuk/jekyll-scholar
   - title: Juris-M
     url: https://juris-m.github.io/
   - title: Katalog.plus!
-    url: http://katalogplus.ub.uni-bielefeld.de/
+    url: https://katalogplus.ub.uni-bielefeld.de/
   - title: Kerko
     url: https://github.com/whiskyechobravo/kerko
   - title: KeyLinks
-    url: http://www.keylinks.org/
+    url: https://www.keylinks.org/
   - title: Logos
-    url: http://www.logos.com/
+    url: https://www.logos.com/
   - title: Manubot
     url: https://manubot.org/
   - title: Manuscripts
-    url: http://www.manuscriptsapp.com/
+    url: https://www.manuscriptsapp.com/
   - title: Mendeley
     url: https://www.mendeley.com/
   - title: MyBib
@@ -79,15 +77,15 @@ multicolumn_list:
   - title: Open Science Framework
     url: https://osf.io/
   - title: pandoc
-    url: http://johnmacfarlane.net/pandoc/
+    url: https://pandoc.org/
   - title: Paperpile
-    url: http://paperpile.com/
+    url: https://paperpile.com/
   - title: Papers
-    url: http://www.papersapp.com/
+    url: https://www.papersapp.com/
   - title: Qiqqa
     url: http://www.qiqqa.com/
   - title: ReadCube
-    url: http://www.readcube.com/
+    url: https://www.readcube.com/home
   - title: Refeus
     url: https://refeus.de/
   - title: ReFindit
@@ -97,9 +95,9 @@ multicolumn_list:
   - title: Scholastica
     url: https://scholasticahq.com/
   - title: Talis Aspire
-    url: http://talisaspire.com/
+    url: https://talis.com/talis-aspire/
   - title: Texture
-    url: http://substance.io/texture/
+    url: https://substance.io/texture/
   - title: "WordPress:"
     children:
       - title: Academic Blogger’s Toolkit
