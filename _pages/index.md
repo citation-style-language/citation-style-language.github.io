@@ -12,7 +12,7 @@ multicolumn_list:
   - title: Auratikum
     url: https://auratikum.com/
   - title: Bibliograph
-    url: http://www.bibliograph.org/
+    url: http://cboulanger.github.io/bibliograph/
   - title: Bibliography.com
     url: https://www.bibliography.com/
   - title: BibSonomy
@@ -29,19 +29,18 @@ multicolumn_list:
     url: http://www.citethisforme.com/
   - title: CloudCite
     url: https://cloudcite.net/
-  - title: colwiz
-    url: http://www.colwiz.com/
+  - title: colwiz (discontinued)
   - title: CrossRef
     url: https://www.crossref.org/
   - title: digi-libris Reader
     url: http://digi-libris.com/
   - title: Docear (discontinued)
   - title: DOI Citation Formatter
-    url: https://crosscite.org/
+    url: https://citation.crosscite.org/
   - title: Drupal
     url: https://www.drupal.org/project/biblio
   - title: EasyBib
-    url: http://www.easybib.com/
+    url: https://www.easybib.com/
   - title: F1000Workspace
     url: https://f1000workspace.com/
   - title: Fidus Writer
@@ -49,7 +48,7 @@ multicolumn_list:
   - title: Formatically
     url: https://formatically.com/
   - title: I, Librarian
-    url: http://i-librarian.net/
+    url: https://i-librarian.net/
   - title: Islandora
     url: https://islandora.ca/
   - title: Jekyll
@@ -89,7 +88,7 @@ multicolumn_list:
   - title: Refeus
     url: https://refeus.de/
   - title: ReFindit
-    url: http://refindit.org/
+    url: https://refindit.org/
   - title: RefWorks
     url: https://refworks.proquest.com/
   - title: Scholastica
