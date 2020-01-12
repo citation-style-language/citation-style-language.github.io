@@ -8,7 +8,6 @@ description: CitationStyles.org, home of the Citation Style Language (CSL), a po
 header:
   overlay_color: "#2d98e0"
 multicolumn_list:
-  - title: ACS ChemWorx (discontinued)
   - title: Auratikum
     url: https://auratikum.com/
   - title: Bibliograph
@@ -29,12 +28,10 @@ multicolumn_list:
     url: http://www.citethisforme.com/
   - title: CloudCite
     url: https://cloudcite.net/
-  - title: colwiz (discontinued)
   - title: CrossRef
     url: https://www.crossref.org/
   - title: digi-libris Reader
     url: http://digi-libris.com/
-  - title: Docear (discontinued)
   - title: DOI Citation Formatter
     url: https://citation.crosscite.org/
   - title: Drupal
@@ -115,6 +112,10 @@ multicolumn_list:
     url: https://www.zotero.org/
   - title: ZoteroBib
     url: https://zbib.org/
+  - title: --- Discontinued ---
+  - title: ACS ChemWorx
+  - title: colwiz
+  - title: Docear
 ---
 
 <table style="margin: auto;max-width:768px;"><tr><td><img src="/assets/img/OSS-Vertical@2x.png" height="300px" width="200px"></td><td style="font-size:1.5em;">Proud <a href="https://openpublishingawards.org/index.php/citation-style-language/">recipient</a> of one of the 2019 Open Publishing Awards in the Open Source Software category</td></tr></table>
@@ -127,4 +128,3 @@ multicolumn_list:
 * **[Blog](/blog/)** &ndash; for big CSL news updates
 * **[About us](/about/)** &ndash; meet the CSL team and our supporters
 * **[Contact](/contact/)** &ndash; contact the CSL team
-
