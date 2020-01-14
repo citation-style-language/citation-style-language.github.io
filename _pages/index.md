@@ -78,6 +78,8 @@ multicolumn_list:
     url: https://paperpile.com/
   - title: Papers
     url: https://www.papersapp.com/
+  - title: Primo
+    url: https://www.exlibrisgroup.com/products/primo-discovery-service/
   - title: Qiqqa
     url: http://www.qiqqa.com/
   - title: ReadCube
