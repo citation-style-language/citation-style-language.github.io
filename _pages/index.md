@@ -48,7 +48,7 @@ multicolumn_list:
     url: https://i-librarian.net/
   - title: Islandora
     url: https://islandora.ca/
-  - title: Jekyll
+  - title: Jekyll-Scholar
     url: https://github.com/inukshuk/jekyll-scholar
   - title: Juris-M
     url: https://juris-m.github.io/
@@ -74,6 +74,11 @@ multicolumn_list:
     url: https://osf.io/
   - title: pandoc
     url: https://pandoc.org/
+    children:
+    - title: arabica
+      url: https://github.com/periodicpoint/arabica
+    - title: robusta
+      url: https://github.com/periodicpoint/robusta
   - title: Paperpile
     url: https://paperpile.com/
   - title: Papers
@@ -92,11 +97,13 @@ multicolumn_list:
     url: https://refworks.proquest.com/
   - title: Scholastica
     url: https://scholasticahq.com/
+  - title: simple-cite
+    url: https://github.com/lewisacidic/simple-cite
   - title: Talis Aspire
     url: https://talis.com/talis-aspire/
   - title: Texture
     url: https://substance.io/texture/
-  - title: "WordPress:"
+  - title: WordPress
     children:
       - title: Academic Blogger’s Toolkit
         url: https://wordpress.org/plugins/academic-bloggers-toolkit/
@@ -114,10 +121,11 @@ multicolumn_list:
     url: https://www.zotero.org/
   - title: ZoteroBib
     url: https://zbib.org/
-  - title: --- Discontinued ---
-  - title: ACS ChemWorx
-  - title: colwiz
-  - title: Docear
+  - title: Discontinued
+    children:
+      - title: ACS ChemWorx
+      - title: colwiz
+      - title: Docear
 ---
 
 <table style="margin: auto;max-width:768px;"><tr><td><img src="/assets/img/OSS-Vertical@2x.png" height="300px" width="200px"></td><td style="font-size:1.5em;">Proud <a href="https://openpublishingawards.org/index.php/citation-style-language/">recipient</a> of one of the 2019 Open Publishing Awards in the Open Source Software category</td></tr></table>
