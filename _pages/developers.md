@@ -50,6 +50,13 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/andras-simonyi/citeproc-el">citeproc‑el</a></td>
+      <td>Emacs Lisp</td>
+      <td>András Simonyi</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="https://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a></td>
       <td>Haskell</td>
       <td>John MacFarlane</td>
