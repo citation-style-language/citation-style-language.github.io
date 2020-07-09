@@ -12,6 +12,8 @@ multicolumn_list:
     url: https://auratikum.com/
   - title: Bibliograph
     url: http://cboulanger.github.io/bibliograph/
+  - title: BibGuru
+    url: https://www.bibguru.com/  
   - title: Bibliography.com
     url: https://www.bibliography.com/
   - title: BibSonomy
