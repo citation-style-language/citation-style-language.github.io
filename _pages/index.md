@@ -97,6 +97,11 @@ multicolumn_list:
     url: https://refindit.org/
   - title: RefWorks
     url: https://refworks.proquest.com/
+  - title: R Markdown
+    url: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+    children:
+    - title: papaja
+      url: https://crsh.github.io/papaja_man/
   - title: Scholastica
     url: https://scholasticahq.com/
   - title: simple-cite
