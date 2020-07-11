@@ -8,7 +8,7 @@ Over the past few months, Citation Style Language developers have worked to addr
 
 A non-technical summary of the release can be found in a [google doc here](https://docs.google.com/document/d/1wY1cOOamDYYh8VNW7h_uleqieBDGOa_LYsRiVdQy1RI/edit#heading=h.wsywjzy5t4j6). For more technical details, you can follow the development on the [github project board](https://github.com/orgs/citation-style-language/projects/3). We welcome feedback directly on the google doc, in specific github issues, or on our [forums](https://discourse.citationstyles.org/).
 
-Tremendous thanks to Bruce D'Arcus, Denis Maier, and Brenton Wiernik, who did the bulk of the work of organizing proposals accumulated over the last 10 years and preparing the release.
+Tremendous thanks to Bruce D'Arcus, Denis Maier, and Brenton Wiernik, who did the bulk of the work of organizing proposals accumulated over the last 8 years and preparing the release.
 
 ## Previewing CSL 1.1
 CSL 1.1, slated for release later this year, will include more significant extensions of CSL functionality. While we'll have a separate public comment period for this release, we're happy for input on the ongoing discussions on github and the forums. In particular, we're eager to hear from projects implementing CSL styles, both in a citeproc and in user-facing applications such as reference managers or citation formatters.
