@@ -22,4 +22,4 @@ This release will primarily add the following new features:
   - Adopting the new EDTF ISO standard, which offers full support for date ranges, seasons, uncertain and approximate qualifiers, and decades and centuries.
   - A new “custom” property to add extension metadata.
   - New related modelling to match the new style attribute (as above, still in discussion).
-  - A “blessed” YAML representation, which can be validated with the same JSON schemas.
+  - An official YAML representation, which can be validated with the same JSON schemas.
