@@ -43,6 +43,8 @@ CSL has enjoyed the support of several patrons:
   In 2015, Springer and Papers donated $5000 to the CSL project.
 * **[RefWorks](https://refworks.proquest.com/)** -
   In 2019, RefWorks and Ex Libris donated $5000 to the CSL project.
+* **[Paperpile](https://paperpile.com/)** -
+    In 2020, Paperpile donated $1000 to the CSL project.
 
 ## Supporting CSL
 
