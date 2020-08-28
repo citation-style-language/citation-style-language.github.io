@@ -68,6 +68,8 @@ multicolumn_list:
     url: https://www.manuscriptsapp.com/
   - title: Mendeley
     url: https://www.mendeley.com/
+  - title: MindView
+    url: https://www.matchware.com/mind-mapping-software
   - title: MyBib
     url: https://www.mybib.com/
   - title: Open Journal Systems
