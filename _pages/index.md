@@ -111,7 +111,7 @@ multicolumn_list:
   - title: Talis Aspire
     url: https://talis.com/talis-aspire/
   - title: Texture
-    url: https://substance.io/texture/
+    url: https://github.com/substance/texture
   - title: WordPress
     children:
       - title: Academic Blogger’s Toolkit
