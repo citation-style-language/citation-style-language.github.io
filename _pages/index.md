@@ -10,6 +10,8 @@ header:
 multicolumn_list:
   - title: Auratikum
     url: https://auratikum.com/
+  - title: Bibcitation
+    url: https://www.bibcitation.com/
   - title: Bibliograph
     url: http://cboulanger.github.io/bibliograph/
   - title: BibGuru
