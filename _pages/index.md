@@ -42,8 +42,6 @@ multicolumn_list:
     url: https://www.drupal.org/project/biblio
   - title: EasyBib
     url: https://www.easybib.com/
-  - title: F1000Workspace
-    url: https://f1000workspace.com/
   - title: Fidus Writer
     url: https://www.fiduswriter.org/
   - title: Formatically
@@ -108,6 +106,8 @@ multicolumn_list:
       url: https://crsh.github.io/papaja_man/
   - title: Scholastica
     url: https://scholasticahq.com/
+  - title: Sciwheel
+    url: https://www.sciwheel.com
   - title: simple-cite
     url: https://github.com/lewisacidic/simple-cite
   - title: Talis Aspire
