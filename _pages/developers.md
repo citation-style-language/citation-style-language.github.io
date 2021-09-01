@@ -57,11 +57,11 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a></td>
+      <td><a href="https://hackage.haskell.org/package/citeproc">citeproc</a></td>
       <td>Haskell</td>
       <td>John MacFarlane</td>
       <td>pandoc</td>
-      <td>Continuation of Andrea Rossato's <a href="http://hackage.haskell.org/package/citeproc-hs">citeproc‑hs</a>, which was last updated in 2015.</td>
+      <td>Replaces the deprecated <a href="https://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a> (last updated in 2020), which itself was a continuation of Andrea Rossato's <a href="http://hackage.haskell.org/package/citeproc-hs">citeproc‑hs</a> (last updated in 2015).</td>
     </tr>
     <tr>
       <td><a href="https://github.com/michel-kraemer/citeproc-java">citeproc‑java</a></td>
@@ -99,7 +99,7 @@ Open source CSL 1.0.1-compatible CSL processors include:
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/cormacrelf/citeproc-rs">citeproc‑rs</a></td>
+      <td><a href="https://github.com/zotero/citeproc-rs">citeproc‑rs</a></td>
       <td>Rust</td>
       <td>Cormac Relf</td>
       <td></td>
