@@ -108,10 +108,10 @@ multicolumn_list:
     url: https://scholasticahq.com/
   - title: Sciwheel
     url: https://www.sciwheel.com
-  - title: simple-cite
-    url: https://github.com/lewisacidic/simple-cite
   - title: Scribbr Citation Generator
     url: https://www.scribbr.com/apa-citation-generator/
+  - title: simple-cite
+    url: https://github.com/lewisacidic/simple-cite
   - title: Talis Aspire
     url: https://talis.com/talis-aspire/
   - title: Texture
