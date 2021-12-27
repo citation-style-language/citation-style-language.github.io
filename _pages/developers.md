@@ -8,7 +8,7 @@ layout: single
 
 ## Language Specification
 
-CSL is defined by two documents: the human-readable [CSL specification](https://docs.citationstyles.org/en/stable/specification.html), and the computer-readable [CSL schema](https://github.com/citation-style-language/schema/tree/v1.0.2), written in the [RELAX NG](http://relaxng.org/) compact syntax, which can be used for validation of CSL styles and locale files.
+CSL is defined by two documents: the human-readable [CSL specification](https://docs.citationstyles.org/en/stable/specification.html), and the computer-readable [CSL schema](https://github.com/citation-style-language/schema/releases/latest), written in the [RELAX NG](http://relaxng.org/) compact syntax, which can be used for validation of CSL styles and locale files.
 
 _Note_: We, the authors of the CSL schema, have agreed to relicense the schema under the more permissible MIT license, although we still have [an open issue](https://github.com/citation-style-language/schema/issues/126) to update the license text in past schema releases to reflect this decision.
 
