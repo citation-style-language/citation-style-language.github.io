@@ -141,7 +141,7 @@ multicolumn_list:
       - title: Docear
 ---
 
-<table style="margin: auto;max-width:768px;"><tr><td><img src="/assets/img/OSS-Vertical@2x.png" height="300px" width="200px"></td><td style="font-size:1.5em;">Proud <a href="https://openpublishingawards.org/index.php/citation-style-language/">recipient</a> of one of the 2019 Open Publishing Awards in the Open Source Software category</td></tr></table>
+<table style="margin: auto;max-width:768px;"><tr><td><img src="/assets/img/OSS-Vertical@2x.png" height="300px" width="200px"></td><td style="font-size:1.5em;">Proud <a href="https://openpublishingawards.org/recipients/citation-style-language/index.html">recipient</a> of one of the 2019 Open Publishing Awards in the Open Source Software category</td></tr></table>
 
 <h3 id="navigate">Navigating this site</h3>
 
