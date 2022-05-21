@@ -34,18 +34,31 @@ redirect_from:
   # roles
   - /ontology/role/
   - /ontology/role/author
+  - /ontology/role/chair
   - /ontology/role/collection-editor
+  - /ontology/role/compiler
   - /ontology/role/composer
   - /ontology/role/container-author
+  - /ontology/role/contributor
+  - /ontology/role/curator
   - /ontology/role/director
   - /ontology/role/editor
   - /ontology/role/editorial-director
   - /ontology/role/editortranslator
+  - /ontology/role/executive-producer
+  - /ontology/role/guest
+  - /ontology/role/host
   - /ontology/role/illustrator
   - /ontology/role/interviewer
+  - /ontology/role/narrator
+  - /ontology/role/organizer
   - /ontology/role/original-author
+  - /ontology/role/performer
+  - /ontology/role/producer
   - /ontology/role/recipient
   - /ontology/role/reviewed-author
+  - /ontology/role/script-writer
+  - /ontology/role/series-creator
   - /ontology/role/translator
   # types
   - /ontology/type/
@@ -57,12 +70,17 @@ redirect_from:
   - /ontology/type/book
   - /ontology/type/broadcast
   - /ontology/type/chapter
+  - /ontology/type/classic
+  - /ontology/type/collection
   - /ontology/type/dataset
+  - /ontology/type/document
   - /ontology/type/entry
   - /ontology/type/entry-dictionary
   - /ontology/type/entry-encyclopedia
+  - /ontology/type/event
   - /ontology/type/figure
   - /ontology/type/graphic
+  - /ontology/type/hearing
   - /ontology/type/interview
   - /ontology/type/legislation
   - /ontology/type/legal_case
@@ -73,14 +91,19 @@ redirect_from:
   - /ontology/type/pamphlet
   - /ontology/type/paper-conference
   - /ontology/type/patent
+  - /ontology/type/performance
+  - /ontology/type/periodical
   - /ontology/type/post
   - /ontology/type/post-weblog
   - /ontology/type/personal_communication
+  - /ontology/type/regulation
   - /ontology/type/report
   - /ontology/type/review
   - /ontology/type/review-book
+  - /ontology/type/software
   - /ontology/type/song
   - /ontology/type/speech
+  - /ontology/type/standard
   - /ontology/type/thesis
   - /ontology/type/treaty
   - /ontology/type/webpage
