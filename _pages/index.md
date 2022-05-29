@@ -42,6 +42,8 @@ multicolumn_list:
     url: https://www.drupal.org/project/biblio
   - title: EasyBib
     url: https://www.easybib.com/
+ -  title: eReserve Plus
+    url: https://www.ereserve.com.au/    
   - title: Fidus Writer
     url: https://www.fiduswriter.org/
   - title: Formatically
