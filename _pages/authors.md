@@ -5,7 +5,7 @@ description: CSL for authors. Learn how to find, install, use, and edit Citation
 layout: single
 redirect_from: /styles
 ---
-{% include toc %}
+{% include toc h_min=2 %}
 
 Are you using Citation Style Language-based software?
 Here we'll show how you can find and install the CSL citation styles you need, and give some tips for using CSL styles.
