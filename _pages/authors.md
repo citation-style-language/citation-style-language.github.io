@@ -30,8 +30,8 @@ Be aware that the styles on this webpage are not regularly updated.
 
 {% capture notice-text %}
 * Looking for styles written for a particular language?
-  All our non-English CSL styles list their language in the title (in English).
-  E.g., "Soziale Welt (German)" and "Archéologie médiévale (French)".
+  All our non-English CSL styles list their language in the title (in their own language).
+  E.g., "Soziale Welt (Deutsch)" and "Archéologie médiévale (Français)".
 * Are you browsing style previews, and only interested in styles with distinct citation formats?
   Make sure to check the "Show only unique styles" box.
 {% endcapture %}
@@ -176,7 +176,7 @@ There are also a number of software tools to help you edit CSL styles:
   A live preview is shown based on the items selected in your Zotero client.
   * The [Preview](http://www.zotero.org/support/dev/citation_styles/preview_pane) pane generates previews for the items selected in your Zotero client for all installed CSL styles.
 * Instead of using one of the dedicated CSL style editors above, you can also hand-edit styles in any text or XML editor, such as:
-  * [Atom](https://atom.io/) (cross-platform)
+  * [VS Studio Code](https://code.visualstudio.com/) (cross-platform)
   * [Notepad++](http://notepad-plus-plus.org/) (Windows)
   * [jEdit](http://www.jedit.org/) (cross-platform)
   * [GNU Emacs](http://www.gnu.org/software/emacs/) (cross-platform; with XML support through [nXML mode](http://www.thaiopensource.com/nxml-mode/))
@@ -191,10 +191,10 @@ By closely following our guidelines, we can often accept your submissions much f
 
 ## Requesting Styles
 
-If you can't find a CSL style for a journal or style guide, or if you find errors in one of our existing styles, you can put in a [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
+If you can't find a CSL style for a journal or style guide, or if you find errors in one of our existing styles, you can put in a [style request](https://github.com/citation-style-language/styles/blob/master/REQUESTING.md#requesting-csl-styles).
 
 There are a few volunteers who try to help people with their requests.
 While most style requests are handled for free, some of our expert CSL style authors are also available for hire.
 Offering payment will get you preferential treatment and a fast turnaround time, and supports their work.
 Our experts usually charge around $100-300 for a custom-made CSL style, depending on the complexity of the style guide and amount of work, and will generally provide a fixed price quote in advance.
-If interested in this type of paid support, please contact us privately via our [contact form](/contact/), or just mention that you're willing to pay in a standard public [style request](https://github.com/citation-style-language/styles/wiki/Requesting-Styles).
+If interested in this type of paid support, please contact us privately via our [contact form](/contact/), or just mention that you're willing to pay in a standard public [style request](https://github.com/citation-style-language/styles/blob/master/REQUESTING.md#requesting-csl-styles).

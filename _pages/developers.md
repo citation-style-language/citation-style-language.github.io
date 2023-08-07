@@ -29,7 +29,7 @@ The test suite can be used by authors of other CSL processors, but contains test
 
 ## CSL Processors
 
-Open source CSL 1.0.1-compatible CSL processors include:
+Open source CSL 1.0.2-compatible CSL processors include:
 
 <table>
   <thead>
@@ -139,6 +139,12 @@ Still, many CSL contributors are Zotero users, and the lively [Zotero forums](ht
     </tr>
   </thead>
   <tbody>
+  <tr>
+      <td>January 2, 2022</td>
+      <td>1.0.2</td>
+      <td><a href="https://github.com/citation-style-language/schema/tree/v1.0.2">Schema</a>, <a href="https://docs.citationstyles.org/en/v1.0.2/specification.html">Specification</a></td>
+      <td><a href="https://citationstyles.org/2020/07/11/seeking-public-comment-on-CSL-1-0-2/">Announcement</a>.</td>
+    </tr>
     <tr>
       <td>September 3, 2012</td>
       <td>1.0.1</td>

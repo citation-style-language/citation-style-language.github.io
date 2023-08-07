@@ -8,21 +8,23 @@ description: CSL for curious people. See who made the Citation Style Language, h
 ## Credits
 
 The Citation Style Language (CSL) was created by [Bruce D'Arcus](https://twitter.com/bdarcus), and shaped by early contributions from [Simon Kornblith](https://twitter.com/skornblith) of Zotero.
-In recent years [Frank G. Bennett, Jr.](https://twitter.com/fgbjr) and [Rintze M. Zelle](https://twitter.com/rintzezelle) have spearheaded further development.
-The CSL _styles_ and _locales_ GitHub repositories are maintained by Rintze Zelle and [Sebastian Karcher](https://twitter.com/adam42smith).
+[Frank G. Bennett, Jr.](https://twitter.com/fgbjr) and [Rintze M. Zelle](https://twitter.com/rintzezelle) spearheaded the development of CSL 1.0 and 1.0.1, and Bruce D'Arcus, Brenton M. Wiernik, and Denis Maier.
+The CSL _styles_ and _locales_ GitHub repositories are maintained by [Sebastian Karcher](https://fediscience.org/@adam42smith).
 Other contributors include:
 
 * [Sylvester Keil](https://twitter.com/1nukshuk)
 * Johan Kool
 * [Johannes Krtek](https://twitter.com/johanneskrtek)
 * Liam Magee
-* [Charles Parnot](https://twitter.com/cparnot) (Papers developer)
-* Carles Pina (Mendeley developer)
+* Patrick O'Brien
+* [Charles Parnot](https://twitter.com/cparnot) (former Papers developer)
+* Carles Pina (former Mendeley developer)
 * Andrea Rossato (author of [citeproc-hs](http://hackage.haskell.org/package/citeproc-hs))
 * [Dan Stillman](https://twitter.com/danstillman) (Zotero developer)
+* [Lars Willighagen](https://fediscience.org/@larsgw@mastodon.social) (citation.js)
 * [Philipp Zumstein](https://twitter.com/zuphilip) (Mannheim University Library)
 
-The contents of this website is by Rintze Zelle.
+The contents of this website is by Sebastian Karcher and Rintze Zelle.
 
 ## CSL Supporters
 
