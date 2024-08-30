@@ -68,7 +68,7 @@ Open source CSL 1.0.2-compatible CSL processors include:
       <td>Java</td>
       <td>Michel Krämer</td>
       <td></td>
-      <td>Java wrapper for citeproc-js</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="https://github.com/juris-m/citeproc-js">citeproc‑js</a></td>
