@@ -16,7 +16,7 @@ Other contributors include:
 * Johan Kool
 * [Johannes Krtek](https://twitter.com/johanneskrtek)
 * Liam Magee
-* Patrick O'Brien
+* [Patrick O'Brien[(https://citationstyler.com/en/)
 * [Charles Parnot](https://twitter.com/cparnot) (former Papers developer)
 * Carles Pina (former Mendeley developer)
 * Andrea Rossato (author of [citeproc-hs](http://hackage.haskell.org/package/citeproc-hs))
@@ -24,7 +24,7 @@ Other contributors include:
 * [Lars Willighagen](https://fediscience.org/@larsgw@mastodon.social) (citation.js)
 * [Philipp Zumstein](https://twitter.com/zuphilip) (Mannheim University Library)
 
-The contents of this website is by Sebastian Karcher and Rintze Zelle.
+The contents of this website are by Sebastian Karcher and Rintze Zelle.
 
 ## CSL Supporters
 
