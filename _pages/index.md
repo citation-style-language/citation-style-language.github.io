@@ -120,6 +120,8 @@ multicolumn_list:
     url: https://talis.com/talis-aspire/
   - title: Texture
     url: https://github.com/substance/texture
+  - title: Typst
+    url: https://typst.app/
   - title: WordPress
     children:
       - title: Academic Blogger’s Toolkit
