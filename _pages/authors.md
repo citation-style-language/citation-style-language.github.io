@@ -197,4 +197,4 @@ There are a few volunteers who try to help people with their requests.
 While most style requests are handled for free, some of our expert CSL style authors are also available for hire.
 Offering payment will get you preferential treatment and a fast turnaround time, and supports their work.
 Our experts usually charge around $100-300 for a custom-made CSL style, depending on the complexity of the style guide and amount of work, and will generally provide a fixed price quote in advance.
-If interested in this type of paid support, please contact us privately via our [contact form](/contact/), or just mention that you're willing to pay in a standard public [style request](https://github.com/citation-style-language/styles/blob/master/REQUESTING.md#requesting-csl-styles).
+If you're potentially interested in this type of paid support, please indicate this in your request.
