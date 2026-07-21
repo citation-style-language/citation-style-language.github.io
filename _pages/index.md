@@ -30,6 +30,8 @@ multicolumn_list:
     url: https://citationsy.com/
   - title: Cite This For Me
     url: http://www.citethisforme.com/
+  - title: CiteMe
+    url: https://citeme.app/
   - title: CloudCite
     url: https://cloudcite.net/
   - title: CrossRef
